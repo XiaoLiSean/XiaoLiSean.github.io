@@ -9,6 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
+<!-- Origami Wheel Project -->
+<br>
+<b>Car with Transformable Wheel Using Compliant Origami Mechanism (AEROSP 470, Winter 2020)</b>
+<br>
+<i>Graduate Student Instructor of</i>
+<br>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
@@ -31,7 +38,7 @@ redirect_from:
 </div>
 
 <div class="w3-display-container mySlides">
-  <img src="http://XiaoLiSean.github.io/images/origamiWheel.gif" style="width:100%">
+  <img src="http://XiaoLiSean.github.io/images/origamiWheel.avi" style="width:100%" start="fileopen">
   <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
     Origami Wheel Transform
   </div>
@@ -42,7 +49,7 @@ redirect_from:
 </div>
 
 
-
+<!-- Function defined to show picture slider -->
 <script>
 var slideIndex = 1;
 showDivs(slideIndex);
