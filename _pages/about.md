@@ -12,9 +12,14 @@ I'm a Master's student in the ME department, University of Michigan. My research
 
 Education
 ======
-* B.S.E in Shanghai Jiao Tong University, 2019
-  * Admitted with Excellent Freshman Scholarship
-  * Awarded Yu Liming Scholarship
-  * Awarded SJTU Outstanding Graduates
-* M.S. in University of Michigan - Ann Arbor, 2021 (expected)
-  * Admitted with Jackson and Muriel Lum Fellowship
+* B.S.E in Mechanical Enginieering, Shanghai Jiao Tong University, 2019
+  * Excellent Freshman Scholarship (2015-2019)
+  * Yu Liming Scholarship (2018)
+  * SJTU Outstanding Graduates (2019)
+* M.S. in Mechanical Enginieering, University of Michigan - Ann Arbor, 2021 (expected)
+  * Jackson and Muriel Lum Fellowship (2019-2021)
+
+<!-- Hobbits
+======
+* Basketball
+* Swimming -->
