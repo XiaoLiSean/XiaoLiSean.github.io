@@ -19,10 +19,11 @@ redirect_from:
 <br>
 <b>Car with Transformable Wheel Using Compliant Origami Mechanism</b>
 <br>
-<i>VM350 Design & Manufacturing II</i>
+<i>VM350 Design & Manufacturing II</i>, <a href="https://sites.ji.sjtu.edu.cn/jaehyungju/" target="_blank"><i>Prof. Ju Jaehyung</i></a>
 <br>
 
 <div class="w3-content w3-display-container">
+  
   <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/car.png" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
