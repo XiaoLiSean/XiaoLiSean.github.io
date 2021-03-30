@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Xiao Li"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Second-year Master's Student at University of Michigan - Ann Arbor"
   location         : "Ann Arbor, MI-48105, USA"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            :
+  email            : "hsiaoli@umich.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/xiao-li-780639147/"
   orcid            : 
   pinterest        :
   soundcloud       :
