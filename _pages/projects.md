@@ -9,18 +9,18 @@ redirect_from:
 
 {% include base_path %}
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
 <!-- Origami Wheel Project -->
 <br>
 <b>Car with Transformable Wheel Using Compliant Origami Mechanism</b>
 <br>
 <i>VM350 Design & Manufacturing II</i>
 <br>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-.mySlides {display:none;}
-</style>
 
 <div class="w3-display-container mySlides">
   <img src="http://XiaoLiSean.github.io/images/car.png" style="width:100%">
@@ -55,12 +55,6 @@ redirect_from:
 <br>
 <i>VM250 Design & Manufacturing I</i>
 <br>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-.mySlides {display:none;}
-</style>
 
 <div class="w3-content w3-display-container">
 <div class="w3-display-container mySlides">
