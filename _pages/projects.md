@@ -22,27 +22,27 @@ redirect_from:
 <i>VM350 Design & Manufacturing II</i>
 <br>
 
-<div class="w3-display-container mySlides">
-  <img src="http://XiaoLiSean.github.io/images/car.png" style="width:100%">
-  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-    Assembled View
-  </div>
-</div>
-
 <div class="w3-content w3-display-container">
-<div class="w3-display-container mySlides">
-  <img src="http://XiaoLiSean.github.io/images/explosiveView.jpg" style="width:100%">
-  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-    Explosive View
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/car.png" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      Assembled View
+    </div>
   </div>
-</div>
 
-<div class="w3-display-container mySlides">
-  <img src="http://XiaoLiSean.github.io/images/origamiWheel.gif" style="width:100%">
-  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-    Origami Wheel Transform
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/explosiveView.jpg" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      Explosive View
+    </div>
   </div>
-</div>
+
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/origamiWheel.gif" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      Origami Wheel Transform
+    </div>
+  </div>
 
 <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
 <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
@@ -57,26 +57,26 @@ redirect_from:
 <br>
 
 <div class="w3-content w3-display-container">
-<div class="w3-display-container mySlides">
-  <img src="http://XiaoLiSean.github.io/images/trebuchetAssemble.jpg" style="width:100%">
-  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-    Assembled View
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/trebuchetAssemble.jpg" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      Assembled View
+    </div>
   </div>
-</div>
 
-<div class="w3-display-container mySlides">
-  <img src="http://XiaoLiSean.github.io/images/trebuchetExplosive.png" style="width:100%">
-  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-    Explosive View
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/trebuchetExplosive.png" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      Explosive View
+    </div>
   </div>
-</div>
 
-<div class="w3-display-container mySlides">
-  <img src="http://XiaoLiSean.github.io/images/shooting.gif" style="width:100%">
-  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-    Shooting Mechanism
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/shooting.gif" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      Shooting Mechanism
+    </div>
   </div>
-</div>
 
 <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
 <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
