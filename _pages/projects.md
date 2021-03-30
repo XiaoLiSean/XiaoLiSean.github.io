@@ -11,9 +11,9 @@ redirect_from:
 
 <!-- Origami Wheel Project -->
 <br>
-<b>Car with Transformable Wheel Using Compliant Origami Mechanism (AEROSP 470, Winter 2020)</b>
+<b>Car with Transformable Wheel Using Compliant Origami Mechanism</b>
 <br>
-<i>Graduate Student Instructor of</i>
+<i>VM250 Design & Manufacturing I</i>
 <br>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,7 +38,7 @@ redirect_from:
 </div>
 
 <div class="w3-display-container mySlides">
-  <img src="http://XiaoLiSean.github.io/images/origamiWheel.avi" style="width:100%" start="fileopen">
+  <img src="http://XiaoLiSean.github.io/images/origamiWheel.gif" style="width:100%">
   <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
     Origami Wheel Transform
   </div>
