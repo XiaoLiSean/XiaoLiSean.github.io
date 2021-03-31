@@ -21,7 +21,7 @@ author_profile: true
 <p>Develope software and hardware RC-Car platform for validate autonomous parking application</p>
 <br>
 
-<div class="w3-content w3-display-container" id="slideshow2">
+<div class="w3-content w3-display-container" id="slideshow3">
   <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/rccar.png" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
