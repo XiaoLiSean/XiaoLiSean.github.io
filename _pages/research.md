@@ -13,13 +13,69 @@ author_profile: true
 
 {% include base_path %}
 
+<!-- Cognitive Map Project -->
+<hr>
+<b>Test Platform for Autonomous Driving Functionalities</b> [<a href="https://github.com/yutlizy/RC-car" target="_blank" style="color:#5DADE2;">Github</a>]
+<br>
+<i>ME 590 Independent Study, Advisor:</i> <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#5DADE2;"><i>Prof. Ilya Kolmanovsky</i></a>, <a href="https://me.engin.umich.edu/people/faculty/bogdan-epureanu" target="_blank" style="color:#5DADE2;"><i>Prof. Bogdan Epureanu</i></a>
+<p>Develope software and hardware RC-Car platform for validate autonomous parking application</p>
+<br>
+
+<div class="w3-content w3-display-container" id="slideshow2">
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/rccar.png" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      RC Car
+    </div>
+  </div>
+
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/path_planning.png" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      MATLAB Parking Valet Path Planning
+    </div>
+  </div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusSlides(-1, this.parentNode)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
+</div>
+
+
+<!-- Set Membership Localization Project -->
+<hr>
+<b>A Set Theoretic Approach to RC Car Localization</b> [<a href="https://github.com/XiaoLiSean/SetThmSLAM" target="_blank" style="color:#5DADE2;">Github</a>]
+<br>
+<i>In Collaboration with Dr. Yutong Li, Advisor:</i> <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#5DADE2;"><i>Prof. Ilya Kolmanovsky</i></a>
+<p>Set membership based localization for CCTV system with monocular and stereo cameras</p>
+<br>
+
+<div class="w3-content w3-display-container" id="slideshow2">
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/monoCCTV.mp4" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      CCTV with Monocular Cameras
+    </div>
+  </div>
+
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/stereoCCTV.mp4" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      CCTV with Stereo Cameras
+    </div>
+  </div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusSlides(-1, this.parentNode)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
+</div>
+
+
 Independed Study
 ======
 <!-- Autonomous Parking Project -->
 <hr>
-<b>Test Platform for Autonomous Driving Functionalities</b>[<a href="https://github.com/yutlizy/RC-car" target="_blank" style="color:#5DADE2;">Github</a>]
+<b>Test Platform for Autonomous Driving Functionalities</b> [<a href="https://github.com/yutlizy/RC-car" target="_blank" style="color:#5DADE2;">Github</a>]
 <br>
-<i>ME 590 Independent Study, Advisor:</i> <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"><i>Prof. Ilya Kolmanovsky</i></a>, <a href="https://me.engin.umich.edu/people/faculty/bogdan-epureanu" target="_blank"><i>Prof. Bogdan Epureanu</i></a>
+<i>ME 590 Independent Study in Collaboration with Dr. Yutong Li, Advisor:</i> <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#5DADE2;"><i>Prof. Ilya Kolmanovsky</i></a>, <a href="https://me.engin.umich.edu/people/faculty/bogdan-epureanu" target="_blank" style="color:#5DADE2;"><i>Prof. Bogdan Epureanu</i></a>
 <p>Develope software and hardware RC-Car platform for validate autonomous parking application</p>
 <br>
 
