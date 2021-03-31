@@ -16,7 +16,7 @@ author_profile: true
 <title>Independed Study</title>
 <!-- Autonomous Parking Project -->
 <hr>
-<b>Test Platform for Autonomous Driving Functionalities</b>
+<b>Test Platform for Autonomous Driving Functionalities</b>[<a href="https://github.com/yutlizy/RC-car" target="_blank" style="color:#5DADE2;">Github</a>]
 <br>
 <i>ME 590 Independent Study, Advisor:</i> <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"><i>Prof. Ilya Kolmanovsky</i></a>, <a href="https://me.engin.umich.edu/people/faculty/bogdan-epureanu" target="_blank"><i>Prof. Bogdan Epureanu</i></a>
 <p>Develope software and hardware RC-Car platform for validate autonomous parking application</p>
