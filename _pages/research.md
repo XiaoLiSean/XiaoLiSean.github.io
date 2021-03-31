@@ -40,16 +40,16 @@ author_profile: true
 
 <div class="w3-content w3-display-container" id="slideshow2">
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/monoCCTV.gif" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/stereoCCTV.gif" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-      CCTV with Monocular Cameras
+      CCTV with Stereo Cameras
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/stereoCCTV.gif" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/monoCCTV.gif" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-      CCTV with Stereo Cameras
+      CCTV with Monocular Cameras
     </div>
   </div>
 
@@ -92,7 +92,7 @@ Independed Study
   <!-- The image w3-content container is of max_width 980 for all -->
   <!-- Keep ratio of 16:9 -->
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/trajectory tracking.gif" style="height:551.25px; margin-left: auto; margin-right: auto;">
+    <img src="http://XiaoLiSean.github.io/images/trajectory tracking.gif" style="height:551.25px; padding-left: 152px; padding-right: 152px;">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Trajectory Tracking
     </div>
