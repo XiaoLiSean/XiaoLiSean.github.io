@@ -96,7 +96,7 @@ Independed Study
   padding = (980 - image_width)/image_width/2 *100% -->
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/trajectory tracking.gif" style="height:551.25px; padding-left: 22.5%; padding-right: 22.5%;">
+    <img src="http://XiaoLiSean.github.io/images/trajectory tracking.gif" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Trajectory Tracking
     </div>
