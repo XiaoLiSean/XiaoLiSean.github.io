@@ -7,12 +7,15 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
 .mySlides {display:none;}
 </style>
+
+{% include base_path %}
 
 <!-- Data-driven ODE Project -->
 <hr>
