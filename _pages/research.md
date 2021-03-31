@@ -114,4 +114,4 @@ Independed Study
 
 
 <!-- Function defined to show picture slider -->
-<script src="http://XiaoLiSean.github.io/assets/js/slideShow.js"></script>
+<script src="http://XiaoLiSean.github.io/assets/js/showSlides.js"></script>
