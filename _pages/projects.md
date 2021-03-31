@@ -19,6 +19,7 @@ redirect_from:
 <!-- Data-driven ODE Project -->
 <hr>
 <b>FastSLAM and Data Association Error Analysis</b>
+<br>
 <a href="https://robots.engin.umich.edu/mobilerobotics/" target="_blank"><i>NAVARCH 568 Mobile Robotics</i></a>, <a href="https://robotics.umich.edu/profile/maani-ghaffari/" target="_blank"><i>Prof. Maani Ghaffari</i></a>
 <p>FastSLAM algorithm tested on toy and Victoria Park Datasets [<a href="https://github.com/XiaoLiSean/fastSLAM" target="_blank">Github</a>],[<a href="https://www.youtube.com/watch?v=l1vEpVRktko" target="_blank">Video</a>]</p>
 <br>
@@ -47,6 +48,7 @@ redirect_from:
 <!-- Data-driven ODE Project -->
 <hr>
 <b>Data-driven Analysis on SEIRS ODE</b>
+<br>
 <i>AEROSP 729 Machine Learning for Science</i>, <a href="https://aero.engin.umich.edu/people/karthik-duraisamy/" target="_blank"><i>Prof. Karthik Duraisamy</i></a>
 <p>Apply data-driven methods (e.g. neural network, dynamic modes decomposition) to analyze epidemic trends modeled by SEIRS ODE [<a href="https://github.com/XiaoLiSean/Machine_Learning_SEIRS" target="_blank">Github</a>]</p>
 <br>
@@ -89,6 +91,7 @@ redirect_from:
 <!-- Origami Wheel Project -->
 <hr>
 <b>Car with Transformable Wheel Using Compliant Origami Mechanism</b>
+<br>
 <i>VM 350 Design & Manufacturing II</i>, <a href="https://sites.ji.sjtu.edu.cn/jaehyungju/" target="_blank"><i>Prof. Ju Jaehyung</i></a>
 <p>Laminated material is used to fabricate the compliant origami wheels which enable flexible control of the wheel diameter and improve adaptability to orographical variations.</p>
 <br>
@@ -130,6 +133,7 @@ redirect_from:
 <!-- Trebuchet Project -->
 <hr>
 <b>Controlled Trebuchet Car</b>
+<br>
 <i>VM 250 Design & Manufacturing I</i>
 <p>Controllable trebuchet car for ball shooting gaming</p>
 <br>
