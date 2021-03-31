@@ -13,7 +13,8 @@ author_profile: true
 
 {% include base_path %}
 
-<title>Independed Study</title>
+Independed Study
+======
 <!-- Autonomous Parking Project -->
 <hr>
 <b>Test Platform for Autonomous Driving Functionalities</b>[<a href="https://github.com/yutlizy/RC-car" target="_blank" style="color:#5DADE2;">Github</a>]
