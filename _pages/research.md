@@ -51,14 +51,14 @@ author_profile: true
 
 <div class="w3-content w3-display-container" id="slideshow2">
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/monoCCTV.mp4" style="width:100%">
+    <source  src="http://XiaoLiSean.github.io/images/monoCCTV.mp4" style="width:100%" type="video/mp4">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       CCTV with Monocular Cameras
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/stereoCCTV.mp4" style="width:100%">
+    <source  src="http://XiaoLiSean.github.io/images/stereoCCTV.mp4" style="width:100%" type="video/mp4">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       CCTV with Stereo Cameras
     </div>
