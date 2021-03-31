@@ -10,12 +10,11 @@ author_profile: true
 <link rel="stylesheet" href="/assets/css/w3.css">
 
 {% include base_path %}
-
 <!-- Cognitive Map Project -->
 <hr>
-<b>Scene Graph Centric Cognitive Map</b> [<a href="https://github.com/XiaoLiSean/Cognitive-Map" target="_blank" style="color:#5DADE2;">Github</a>]
+<b>sds Scene Graph Centric Cognitive Map</b> [<a href="https://github.com/XiaoLiSean/Cognitive-Map" target="_blank">Github</a>]
 <br>
-<i>In Collaboration with Yidong Du and Dr. Zhen Zeng, Advisor:</i> <a href="https://ocj.name/" target="_blank" style="color:#5DADE2;"><i>Prof. Chad Jenkins</i></a>
+<i>In Collaboration with Yidong Du and</i> <a href="https://www.zhenzeng.org/" target="_blank" style="color:#5DADE2;"><i>Dr. Zhen Zeng</i></a>, <i>Advisor:</i> <a href="https://ocj.name/" target="_blank" style="color:#5DADE2;"><i>Prof. Chad Jenkins</i></a>
 <p>Design a cognitive map representation to enable a dynamic memory of scene set-ups for autonomous agents, Create an image and scene graph-based Neuron Network for localization with uncertainties using Pytorch which ultimately enable the domestic robot for intelligent service tasks</p>
 
 <div class="w3-content w3-display-container" id="slideshow3">
