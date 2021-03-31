@@ -9,13 +9,6 @@ redirect_from:
 
 {% include base_path %}
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <style>
@@ -30,8 +23,7 @@ redirect_from:
 <i>VM350 Design & Manufacturing II</i>, <a href="https://sites.ji.sjtu.edu.cn/jaehyungju/" target="_blank"><i>Prof. Ju Jaehyung</i></a>
 <br>
 
-<div class="container p-3 my-3 border">
-<div class="w3-content w3-display-container">
+<div class="w3-content w3-display-container" id="slideshow1">
 
   <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/car.png" style="width:100%">
@@ -54,9 +46,8 @@ redirect_from:
     </div>
   </div>
 
-<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
-</div>
+<button class="w3-button w3-display-left w3-black" onclick="plusSlides(-1, this.parentNode)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
 </div>
 
 <!-- Trebuchet Project -->
@@ -66,8 +57,7 @@ redirect_from:
 <i>VM250 Design & Manufacturing I</i>
 <br>
 
-<div class="container p-3 my-3 border">
-<div class="w3-content w3-display-container">
+<div class="w3-content w3-display-container" id="slideshow2">
   <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/trebuchetAssemble.jpg" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
@@ -89,29 +79,38 @@ redirect_from:
     </div>
   </div>
 
-<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
-</div>
+<button class="w3-button w3-display-left w3-black" onclick="plusSlides(-1, this.parentNode)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
 </div>
 
 
 <!-- Function defined to show picture slider -->
 <script>
-var slideIndex = 1;
-showDivs(slideIndex);
+var slideshow1 = document.getElementById("slideshow1");
+slideshow1.currentSlideIndex = 1;
+showSlides(slideshow1.currentSlideIndex, slideshow1);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+var slideshow2 = document.getElementById("slideshow2");
+slideshow2.currentSlideIndex = 1;
+showSlides(slideshow2.currentSlideIndex, slideshow2);
+
+
+function plusSlides(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex += n, slideshow);
 }
 
-function showDivs(n) {
+function currentSlide(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex = n, slideshow);
+}
+
+function showSlides(n, slideshow) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+  var slides = slideshow.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideshow.currentSlideIndex = 1}    
+  if (n < 1) {slideshow.currentSlideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  slides[slideshow.currentSlideIndex-1].style.display = "block";  
 }
 </script>
