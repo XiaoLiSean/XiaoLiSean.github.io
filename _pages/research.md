@@ -57,8 +57,7 @@ author_profile: true
 </div>
 
 <br><br>
-Independed Study
-======
+<h2>Independed Study</h2>
 <!-- Autonomous Parking Project -->
 <hr>
 <b>Test Platform for Autonomous Driving Functionalities</b> [<a href="https://github.com/yutlizy/RC-car" target="_blank" style="color:#5DADE2;">Github</a>]
