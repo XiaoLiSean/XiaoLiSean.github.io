@@ -92,7 +92,7 @@ Independed Study
   <!-- The image w3-content container is of max_width 980 for all -->
   <!-- Keep ratio of 16:9 -->
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/trajectory tracking.gif" style="height:551.25px; padding-left: auto; padding-right: auto;">
+    <img src="http://XiaoLiSean.github.io/images/trajectory tracking.gif" style="height:551.25px; margin-left: auto; margin-right: auto;">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Trajectory Tracking
     </div>
