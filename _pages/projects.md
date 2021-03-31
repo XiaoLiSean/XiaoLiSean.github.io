@@ -18,7 +18,7 @@ redirect_from:
 <hr>
 <b>FastSLAM and Data Association Error Analysis</b> [<a href="https://github.com/XiaoLiSean/fastSLAM" target="_blank" style="color:#5DADE2;">Github</a>],[<a href="https://www.youtube.com/watch?v=l1vEpVRktko" target="_blank" style="color:#5DADE2;">Video</a>]
 <br>
-<a href="https://robots.engin.umich.edu/mobilerobotics/" target="_blank" style="color:#5DADE2;"><i>NAVARCH 568 Mobile Robotics</i></a>, <i>advisor:</i> <a href="https://robotics.umich.edu/profile/maani-ghaffari/" target="_blank" style="color:#5DADE2;"><i>Prof. Maani Ghaffari</i></a>
+<a href="https://robots.engin.umich.edu/mobilerobotics/" target="_blank" style="color:#5DADE2;"><i>NAVARCH 568 Mobile Robotics</i></a>, <i>Advisor:</i> <a href="https://robotics.umich.edu/profile/maani-ghaffari/" target="_blank" style="color:#5DADE2;"><i>Prof. Maani Ghaffari</i></a>
 <p>FastSLAM algorithms proposed in <a href="http://www.probabilistic-robotics.org/" target="_blank" style="color:#5DADE2;">"Probabilistic Robotics"</a> are tested on toy and Victoria Park Datasets</p>
 
 <div class="w3-content w3-display-container" id="slideshow4">
@@ -60,7 +60,7 @@ redirect_from:
 <hr>
 <b>Data-driven Analysis on SEIRS ODE</b> [<a href="https://github.com/XiaoLiSean/Machine_Learning_SEIRS" target="_blank" style="color:#5DADE2;">Github</a>]
 <br>
-<i>AEROSP 729 Machine Learning for Science</i>, <a href="https://aero.engin.umich.edu/people/karthik-duraisamy/" target="_blank" style="color:#5DADE2;"><i>Prof. Karthik Duraisamy</i></a>
+<i>AEROSP 729 Machine Learning for Science</i>, <i>Advisor:</i> <a href="https://aero.engin.umich.edu/people/karthik-duraisamy/" target="_blank" style="color:#5DADE2;"><i>Prof. Karthik Duraisamy</i></a>
 <p>Apply data-driven methods (e.g. neural network, dynamic modes decomposition) to analyze epidemic trends modeled by SEIRS ODE </p>
 
 <div class="w3-content w3-display-container" id="slideshow3">
@@ -102,7 +102,7 @@ redirect_from:
 <hr>
 <b>Car with Transformable Wheel Using Compliant Origami Mechanism</b>
 <br>
-<i>VM 350 Design & Manufacturing II</i>, <a href="https://sites.ji.sjtu.edu.cn/jaehyungju/" target="_blank" style="color:#5DADE2;"><i>Prof. Ju Jaehyung</i></a>
+<i>VM 350 Design & Manufacturing II</i>, <i>Advisor:</i> <a href="https://sites.ji.sjtu.edu.cn/jaehyungju/" target="_blank" style="color:#5DADE2;"><i>Prof. Ju Jaehyung</i></a>
 <p>Laminated material is used to fabricate the compliant origami wheels which enable flexible control of the wheel diameter and improve adaptability to orographical variations.</p>
 
 <div class="w3-content w3-display-container" id="slideshow2">

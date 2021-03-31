@@ -56,7 +56,7 @@ author_profile: true
 <button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
 </div>
 
-
+<br><br>
 Independed Study
 ======
 <!-- Autonomous Parking Project -->
