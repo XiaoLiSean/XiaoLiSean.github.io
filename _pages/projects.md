@@ -17,18 +17,55 @@ redirect_from:
 </head>
 
 <!-- Origami Wheel Project -->
+<hr><br><br>
+<b>Data-driven Analysis on SEIRS ODE <a href="https://github.com/XiaoLiSean/Machine_Learning_SEIRS" target="_blank">Github</a></b>
 <br>
-<b>Car with Transformable Wheel Using Compliant Origami Mechanism</b>
-<br>
-<i>VM350 Design & Manufacturing II</i>, <a href="https://sites.ji.sjtu.edu.cn/jaehyungju/" target="_blank"><i>Prof. Ju Jaehyung</i></a>
+<i>AEROSP 729 Machine Learning for Science</i>, <a href="https://aero.engin.umich.edu/people/karthik-duraisamy/" target="_blank"><i>Prof. Karthik Duraisamy</i></a>
+<p>Apply data-driven methods (e.g. neural network, dynamic modes decomposition) to analyze epidemic trends modeled by SEIRS ODE</p>
 <br>
 
-<div class="w3-content w3-display-container" id="slideshow1">
+<div class="w3-content w3-display-container" id="slideshow3">
+
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/nn.png" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      Neural Network Prediction
+    </div>
+  </div>
+
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/koop.png" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      Koopman Decomposition Prediction
+    </div>
+  </div>
+
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/dmd.png" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      Dynamic Modes Decomposition Prediction
+    </div>
+  </div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusSlides(-1, this.parentNode)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
+</div>
+
+
+<!-- Origami Wheel Project -->
+<hr><br><br>
+<b>Car with Transformable Wheel Using Compliant Origami Mechanism</b>
+<br>
+<i>VM 350 Design & Manufacturing II</i>, <a href="https://sites.ji.sjtu.edu.cn/jaehyungju/" target="_blank"><i>Prof. Ju Jaehyung</i></a>
+<p>Laminated material is used to fabricate the compliant origami wheels which enable flexible control of the wheel diameter and improve adaptability to orographical variations.</p>
+<br>
+
+<div class="w3-content w3-display-container" id="slideshow2">
 
   <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/car.png" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-      Assembled View
+      Assembling  View
     </div>
   </div>
 
@@ -40,9 +77,16 @@ redirect_from:
   </div>
 
   <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/Climbing.jpg" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      Climbing
+    </div>
+  </div>
+
+  <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/origamiWheel.gif" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-      Origami Wheel Transform
+      Origami Wheel Transformation
     </div>
   </div>
 
@@ -51,17 +95,18 @@ redirect_from:
 </div>
 
 <!-- Trebuchet Project -->
-<br>
+<hr><br><br>
 <b>Controlled Trebuchet Car</b>
 <br>
-<i>VM250 Design & Manufacturing I</i>
+<i>VM 250 Design & Manufacturing I</i>
+<p>Controllable trebuchet car for ball shooting gaming</p>
 <br>
 
-<div class="w3-content w3-display-container" id="slideshow2">
+<div class="w3-content w3-display-container" id="slideshow1">
   <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/trebuchetAssemble.jpg" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-      Assembled View
+      Assembling  View
     </div>
   </div>
 
