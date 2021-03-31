@@ -8,13 +8,11 @@ redirect_from:
 ---
 
 {% include base_path %}
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <style>
-  .mySlides {display:none;}
-  </style>
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
 
 <!-- Data-driven ODE Project -->
 <hr>
