@@ -17,7 +17,6 @@ author_profile: true
 <br>
 <i>In Collaboration with Yidong Du and Dr. Zhen Zeng, Advisor:</i> <a href="https://ocj.name/" target="_blank" style="color:#5DADE2;"><i>Prof. Chad Jenkins</i></a>
 <p>Design a cognitive map representation to enable a dynamic memory of scene set-ups for autonomous agents, Create an image and scene graph-based Neuron Network for localization with uncertainties using Pytorch which ultimately enable the domestic robot for intelligent service tasks</p>
-<br>
 
 <div class="w3-content w3-display-container" id="slideshow3">
   <div class="w3-display-container mySlides">
@@ -38,7 +37,6 @@ author_profile: true
 <br>
 <i>In Collaboration with Dr. Yutong Li, Advisor:</i> <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#5DADE2;"><i>Prof. Ilya Kolmanovsky</i></a>
 <p>Set membership based localization for CCTV system with monocular and stereo cameras</p>
-<br>
 
 <div class="w3-content w3-display-container" id="slideshow2">
   <div class="w3-display-container mySlides">
@@ -68,7 +66,6 @@ Independed Study
 <br>
 <i>ME 590 Independent Study in Collaboration with Dr. Yutong Li, Advisor:</i> <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#5DADE2;"><i>Prof. Ilya Kolmanovsky</i></a>, <a href="https://me.engin.umich.edu/people/faculty/bogdan-epureanu" target="_blank" style="color:#5DADE2;"><i>Prof. Bogdan Epureanu</i></a>
 <p>Develope software and hardware RC-Car platform for validate autonomous parking application</p>
-<br>
 
 <div class="w3-content w3-display-container" id="slideshow1">
   <div class="w3-display-container mySlides">
@@ -93,7 +90,7 @@ Independed Study
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/trajectory tracking.gif" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/trajectory tracking.gif" style="width:100%; padding: 25px 279px;">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Trajectory Tracking
     </div>
