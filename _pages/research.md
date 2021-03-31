@@ -35,7 +35,7 @@ author_profile: true
 <b>A Set Theoretic Approach to RC Car Localization</b> [<a href="https://github.com/XiaoLiSean/SetThmSLAM" target="_blank" style="color:#5DADE2;">Github</a>]
 <br>
 <i>In Collaboration with Dr. Yutong Li, Advisor:</i> <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#5DADE2;"><i>Prof. Ilya Kolmanovsky</i></a>
-<p>A set membership-based localization algorithm for CCTV systems with monocular and stereo cameras is developed in this project which enables a robust and guaranteed localization performance for autonomous vehicle localization. Meanwhile, leveraging sensors information in infrastructure, an integrated platform for autonomous vehicle path planning, control, navigation, and localization is developed in simulation environment.</p>
+<p>A set membership-based localization algorithm for CCTV systems with monocular and stereo cameras is developed in this project which enables a robust and guaranteed localization performance for autonomous vehicle applications. Meanwhile, leveraging sensors information in infrastructure, an integrated platform for autonomous vehicle path planning, control, navigation, and localization is developed in simulation environment.</p>
 
 <div class="w3-content w3-display-container" id="slideshow2">
   <div class="w3-display-container mySlides">
