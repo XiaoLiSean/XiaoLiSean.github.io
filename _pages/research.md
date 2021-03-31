@@ -90,7 +90,7 @@ Independed Study
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/trajectory tracking.gif" style="width:100%; padding-top: 56.25%;">
+    <img src="http://XiaoLiSean.github.io/images/trajectory tracking.gif" style="height:100%; padding-right: 28.125%; padding-left: 28.125%;">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Trajectory Tracking
     </div>
