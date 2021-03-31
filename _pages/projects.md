@@ -17,11 +17,11 @@ redirect_from:
 </head>
 
 <!-- Origami Wheel Project -->
-<br><br><hr>
+<br><br><hr><br>
 <b>Data-driven Analysis on SEIRS ODE</b>
 <br>
 <i>AEROSP 729 Machine Learning for Science</i>, <a href="https://aero.engin.umich.edu/people/karthik-duraisamy/" target="_blank"><i>Prof. Karthik Duraisamy</i></a>
-<p>Apply data-driven methods (e.g. neural network, dynamic modes decomposition) to analyze epidemic trends modeled by SEIRS ODE[<a href="https://github.com/XiaoLiSean/Machine_Learning_SEIRS" target="_blank">Github</a>]</p>
+<p>Apply data-driven methods (e.g. neural network, dynamic modes decomposition) to analyze epidemic trends modeled by SEIRS ODE [<a href="https://github.com/XiaoLiSean/Machine_Learning_SEIRS" target="_blank">Github</a>]</p>
 <br>
 
 <div class="w3-content w3-display-container" id="slideshow3">
@@ -53,7 +53,7 @@ redirect_from:
 
 
 <!-- Origami Wheel Project -->
-<br><br><hr>
+<br><br><hr><br>
 <b>Car with Transformable Wheel Using Compliant Origami Mechanism</b>
 <br>
 <i>VM 350 Design & Manufacturing II</i>, <a href="https://sites.ji.sjtu.edu.cn/jaehyungju/" target="_blank"><i>Prof. Ju Jaehyung</i></a>
@@ -95,7 +95,7 @@ redirect_from:
 </div>
 
 <!-- Trebuchet Project -->
-<br><br><hr>
+<br><br><hr><br>
 <b>Controlled Trebuchet Car</b>
 <br>
 <i>VM 250 Design & Manufacturing I</i>
