@@ -19,21 +19,35 @@ redirect_from:
 <b>FastSLAM and Data Association Error Analysis</b> [<a href="https://github.com/XiaoLiSean/fastSLAM" target="_blank" style="color:#5DADE2;">Github</a>],[<a href="https://www.youtube.com/watch?v=l1vEpVRktko" target="_blank" style="color:#5DADE2;">Video</a>]
 <br>
 <a href="https://robots.engin.umich.edu/mobilerobotics/" target="_blank" style="color:#5DADE2;"><i>NAVARCH 568 Mobile Robotics</i></a>, <a href="https://robotics.umich.edu/profile/maani-ghaffari/" target="_blank" style="color:#5DADE2;"><i>Prof. Maani Ghaffari</i></a>
-<p>FastSLAM algorithm tested on toy and Victoria Park Datasets</p>
+<p>FastSLAM algorithms proposed in <a href="http://www.probabilistic-robotics.org/" target="_blank" style="color:#5DADE2;">"Probabilistic Robotics"</a> are tested on toy and Victoria Park Datasets</p>
 
 <div class="w3-content w3-display-container" id="slideshow4">
 
   <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/fastslam.gif" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-      FastSLAM Tested on Victoria Park Dataset
+      FastSLAM2.0 Tested on Victoria Park Dataset
+    </div>
+  </div>
+
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/fastslamToy.gif" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      FastSLAM Tested on Toy Dataset
+    </div>
+  </div>
+
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/dubious.png" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      Dubious Feature
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/unknow1_err.png" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-      Error Analysis
+      Error Analysis on Toy Dataset
     </div>
   </div>
 
