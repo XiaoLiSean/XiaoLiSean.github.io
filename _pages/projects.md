@@ -28,7 +28,7 @@ redirect_from:
 <div class="w3-content w3-display-container" id="slideshow4">
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/fastslam.png" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/fastslam.gif" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       FastSLAM Tested on Victoria Park Dataset
     </div>
