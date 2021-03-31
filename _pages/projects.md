@@ -20,7 +20,6 @@ redirect_from:
 <br>
 <a href="https://robots.engin.umich.edu/mobilerobotics/" target="_blank" style="color:#5DADE2;"><i>NAVARCH 568 Mobile Robotics</i></a>, <a href="https://robotics.umich.edu/profile/maani-ghaffari/" target="_blank" style="color:#5DADE2;"><i>Prof. Maani Ghaffari</i></a>
 <p>FastSLAM algorithm tested on toy and Victoria Park Datasets</p>
-<br>
 
 <div class="w3-content w3-display-container" id="slideshow4">
 
@@ -49,7 +48,6 @@ redirect_from:
 <br>
 <i>AEROSP 729 Machine Learning for Science</i>, <a href="https://aero.engin.umich.edu/people/karthik-duraisamy/" target="_blank" style="color:#5DADE2;"><i>Prof. Karthik Duraisamy</i></a>
 <p>Apply data-driven methods (e.g. neural network, dynamic modes decomposition) to analyze epidemic trends modeled by SEIRS ODE </p>
-<br>
 
 <div class="w3-content w3-display-container" id="slideshow3">
 
@@ -92,7 +90,6 @@ redirect_from:
 <br>
 <i>VM 350 Design & Manufacturing II</i>, <a href="https://sites.ji.sjtu.edu.cn/jaehyungju/" target="_blank" style="color:#5DADE2;"><i>Prof. Ju Jaehyung</i></a>
 <p>Laminated material is used to fabricate the compliant origami wheels which enable flexible control of the wheel diameter and improve adaptability to orographical variations.</p>
-<br>
 
 <div class="w3-content w3-display-container" id="slideshow2">
 
@@ -134,7 +131,6 @@ redirect_from:
 <br>
 <i>VM 250 Design & Manufacturing I</i>
 <p>Controllable trebuchet car for ball shooting gaming</p>
-<br>
 
 <div class="w3-content w3-display-container" id="slideshow1">
   <div class="w3-display-container mySlides">
