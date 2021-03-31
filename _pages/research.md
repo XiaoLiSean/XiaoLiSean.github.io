@@ -5,6 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
+<!-- Include style sheet -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/assets/css/w3.css">
 
@@ -15,7 +16,7 @@ author_profile: true
 <b>Scene Graph Centric Cognitive Map</b> [<a href="https://github.com/XiaoLiSean/Cognitive-Map" target="_blank" style="color:#5DADE2;">Github</a>]
 <br>
 <i>In Collaboration with Yidong Du and Dr. Zhen Zeng, Advisor:</i> <a href="https://ocj.name/" target="_blank" style="color:#5DADE2;"><i>Prof. Chad Jenkins</i></a>
-<p>Design a cognitive map representation to enable a dynamic memory of scene set-ups for autonomous agents, Create a image and scene graph based Neuron Network for localization with uncertainties using Pytorch</p>
+<p>Design a cognitive map representation to enable a dynamic memory of scene set-ups for autonomous agents, Create an image and scene graph-based Neuron Network for localization with uncertainties using Pytorch which ultimately enable the domestic robot for intelligent service tasks</p>
 <br>
 
 <div class="w3-content w3-display-container" id="slideshow3">
@@ -72,7 +73,7 @@ Independed Study
 <div class="w3-content w3-display-container" id="slideshow1">
   <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/rccar.png" style="width:100%">
-    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black XiaoImg">
       RC Car
     </div>
   </div>
@@ -109,37 +110,5 @@ Independed Study
 <button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
 </div>
 
-
 <!-- Function defined to show picture slider -->
-<script>
-var slideshow1 = document.getElementById("slideshow1");
-slideshow1.currentSlideIndex = 1;
-showSlides(slideshow1.currentSlideIndex, slideshow1);
-
-var slideshow2 = document.getElementById("slideshow2");
-slideshow2.currentSlideIndex = 1;
-showSlides(slideshow2.currentSlideIndex, slideshow2);
-
-var slideshow3 = document.getElementById("slideshow3");
-slideshow3.currentSlideIndex = 1;
-showSlides(slideshow2.currentSlideIndex, slideshow3);
-
-function plusSlides(n, slideshow) {
-  showSlides(slideshow.currentSlideIndex += n, slideshow);
-}
-
-function currentSlide(n, slideshow) {
-  showSlides(slideshow.currentSlideIndex = n, slideshow);
-}
-
-function showSlides(n, slideshow) {
-  var i;
-  var slides = slideshow.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideshow.currentSlideIndex = 1}    
-  if (n < 1) {slideshow.currentSlideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  slides[slideshow.currentSlideIndex-1].style.display = "block";  
-}
-</script>
+<script type="text/javascript" src="/assets/js/showSlides.js">

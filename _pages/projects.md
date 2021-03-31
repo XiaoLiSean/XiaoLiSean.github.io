@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-
+<!-- Include style sheet -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/assets/css/w3.css">
 
