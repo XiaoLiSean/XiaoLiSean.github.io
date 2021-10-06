@@ -12,7 +12,7 @@ author_profile: true
 {% include base_path %}
 <!-- Cognitive Map Project -->
 <hr>
-<b>Scene Graph Centric Cognitive Map</b> [<a href="https://github.com/XiaoLiSean/Cognitive-Map" target="_blank" style="color:#5DADE2;">Github</a>]
+<b>Dynamic Scene Graph and Visual Navigation</b> [<a href="https://github.com/XiaoLiSean/Cognitive-Map" target="_blank" style="color:#5DADE2;">Github</a>]
 <br>
 <i>In Collaboration with Yidong Du and</i> <a href="https://www.zhenzeng.org/" target="_blank" style="color:#5DADE2;"><i>Dr. Zhen Zeng</i></a>, <i>Advisor:</i> <a href="https://ocj.name/" target="_blank" style="color:#5DADE2;"><i>Prof. Chad Jenkins</i></a>
 <p>This research work develops a cognitive map representation that enables a dynamic memory of scene set-ups for autonomous agents. Image and scene graph-based Neuron Network is designed for localization with uncertainties using Pytorch. This research work ultimately enables the domestic robot for intelligent service tasks facing object-level visual uncertainties.</p>
@@ -32,29 +32,10 @@ author_profile: true
 
 <!-- Set Membership Localization Project -->
 <hr>
-<b>A Set Theoretic Approach to RC Car Localization</b> [<a href="https://github.com/XiaoLiSean/SetThmSLAM" target="_blank" style="color:#5DADE2;">Github</a>]
+<b>Set-theoretic Localization for Mobile Robots with Infrastructure-based Sensing</b> [<a href="https://github.com/XiaoLiSean/SetThmSLAM" target="_blank" style="color:#5DADE2;">Github</a>, <a href="https://arxiv.org/abs/2110.01749" target="_blank" style="color:#5DADE2;">arXiv</a>]
 <br>
-<i>In Collaboration with Dr. Yutong Li, Advisor:</i> <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#5DADE2;"><i>Prof. Ilya Kolmanovsky</i></a>
+<i>In Collaboration with Dr. Yutong Li, Advisor: Prof. Anouck Girard</i> <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#5DADE2;"><i>Prof. Ilya Kolmanovsky</i></a>
 <p>A set membership-based localization algorithm for CCTV systems with monocular and stereo cameras is developed in this project which enables a robust and guaranteed localization performance for autonomous vehicle applications. Meanwhile, leveraging sensors information in infrastructure, an integrated platform for autonomous vehicle path planning, control, navigation, and localization is developed in simulation environment.</p>
-
-<div class="w3-content w3-display-container" id="slideshow2">
-  <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/stereoCCTV.gif" style="width:100%">
-    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-      CCTV with Stereo Cameras
-    </div>
-  </div>
-
-  <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/monoCCTV.gif" style="width:100%">
-    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-      CCTV with Monocular Cameras
-    </div>
-  </div>
-
-<button class="w3-button w3-display-left w3-black" onclick="plusSlides(-1, this.parentNode)">&#10094;</button>
-<button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
-</div>
 
 <br><br>
 <h2>Independed Study</h2>
