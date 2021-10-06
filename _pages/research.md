@@ -38,9 +38,6 @@ author_profile: true
       Autonomous Coffee Making Service Task
     </div>
   </div>
-
-<button class="w3-button w3-display-left w3-black" onclick="plusSlides(0, this.parentNode)">&#10094;</button>
-<button class="w3-button w3-display-right w3-black" onclick="plusSlides(0, this.parentNode)">&#10095;</button>
 </div>
 
 
