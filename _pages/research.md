@@ -19,7 +19,7 @@ author_profile: true
 
 <!-- SeanNet Project -->
 <hr>
-<b>SeanNet: Semantic Understanding Network for Localization Under Object Dynamics</b> [<a href="https://github.com/XiaoLiSean/Cognitive-Map/tree/CoRL2021" target="_blank" style="color:#5DADE2;">Github</a>]
+<b>SeanNet: Semantic Understanding Network for Localization Under Object Dynamics</b> [<a href="https://github.com/XiaoLiSean/Cognitive-Map/tree/CoRL2021" target="_blank" style="color:#5DADE2;">Github</a>， <a href="https://arxiv.org/abs/2110.02276" target="_blank" style="color:#5DADE2;">arXiv</a>]
 <br>
 <i>In Collaboration with Yidong Du and</i> <a href="https://www.zhenzeng.org/" target="_blank" style="color:#5DADE2;"><i>Dr. Zhen Zeng</i></a>, <i>Advisor:</i> <a href="https://ocj.name/" target="_blank" style="color:#5DADE2;"><i>Prof. Chad Jenkins</i></a>
 <p>This research work proposes a scene graph enhanced deep neuron network for localization under visual uncertainties using Pytorch. The proposed network is provided to have a better performance in visual navigation tasks under object dynamics compared to those using CNN benchmark architectures.</p>
