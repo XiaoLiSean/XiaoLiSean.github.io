@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Xiao Li"
 title_separator          : "-"
 name                     : &name "Xiao Li"
-description              : &description "Second-year Master's Student at University of Michigan - Ann Arbor"
+description              : &description "Forthcoming Ph.D. Student @ Umich Aerospace"
 url                      : https://XiaoLiSean.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "XiaoLiSean.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Xiao Li"
   avatar           : "profile.jpg"
-  bio              : "Second-year Master's Student at University of Michigan - Ann Arbor"
+  bio              : "Forthcoming Ph.D. Student @ Umich Aerospace"
   location         : "Ann Arbor, MI-48105, USA"
   employer         :
   pubmed           : 

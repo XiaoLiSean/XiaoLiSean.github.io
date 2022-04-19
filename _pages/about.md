@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Master's student in the ME department, University of Michigan - Ann Arbor. My research interests include but not limited to machine learning, trustworthy autonomy, and optimal control. I'm specifically focusing on integrating modeling with data-driven methods to resolve robust and safety problems that emerged on the autonomous agents' applications. [[CV](http://XiaoLiSean.github.io/files/resume.pdf)]
+I'm a forthcoming Ph.D. student at the University of Michigan - Ann Arbor. My research interests include but not limited to learning, control and optimization. I'm specifically focusing on integrating modeling with data-driven methods to resolve robust and safety problems that emerged on the autonomous agents' applications. [[CV](http://XiaoLiSean.github.io/files/resume.pdf)]
 
 Education
 ======
