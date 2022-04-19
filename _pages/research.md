@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Current Research"
+title: "Current Research (To Be Completed...)"
 permalink: /research/
 author_profile: true
 ---
