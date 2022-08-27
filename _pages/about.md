@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a prospective Ph.D. student affiliated with the Aerospace Department, at the University of Michigan - Ann Arbor. I'm fortunate to have Professor [Anouck Girard](https://vodca.engin.umich.edu/) and Professor [Ilya Kolmanovsky](https://sites.google.com/a/umich.edu/kolmanovsky/) as my advisors. My research interests include, but not limited to, learning, control, and optimization. I'm specifically focusing on integrating modeling with data-driven methods to resolve robust and safety problems that emerged in autonomous agents' applications. [[CV](http://XiaoLiSean.github.io/files/resume.pdf)]
+I'm a prospective Ph.D. student affiliated with the Aerospace Department, at the University of Michigan - Ann Arbor. I'm fortunate to have Professor [Anouck Girard](https://vodca.engin.umich.edu/) and Professor [Ilya Kolmanovsky](https://sites.google.com/a/umich.edu/kolmanovsky/) as my advisors. My research interests include, but are not limited to, learning, control, and optimization. I’m specifically focusing on theoretical and algorithmic integration of data-driven methods in optimal control to resolve robust and safety concerns that emerged in autonomous agents’ applications. [[CV](http://XiaoLiSean.github.io/files/resume.pdf)]
 
 Education
 ======
