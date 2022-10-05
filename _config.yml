@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Xiao Li"
 title_separator          : "-"
 name                     : &name "Xiao Li"
-description              : &description "Forthcoming Ph.D. Student @ Umich Aerospace"
+description              : &description "Ph.D. Student @ Umich Aerospace"
 url                      : https://XiaoLiSean.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "XiaoLiSean.github.io"
@@ -102,8 +102,8 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/xiao-li-780639147/"
-  orcid            : https://orcid.org/my-orcid?orcid=0000-0002-1032-5533
+  linkedin         : "xiao-li-780639147/"
+  orcid            : 0000-0002-1032-5533
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
