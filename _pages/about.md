@@ -12,11 +12,11 @@ I'm a Ph.D. student affiliated with the Aerospace Department, at the University 
 
 Education
 ======
-* B.S. in Mechanical Enginieering, Shanghai Jiao Tong University, 2019
+* B.S. in Mechanical Engineering, Shanghai Jiao Tong University, 2019
   * Excellent Freshman Scholarship (2015-2019)
   * Yu Liming Scholarship (2018)
   * SJTU Outstanding Graduates (2019)
-* M.S. in Mechanical Enginieering, University of Michigan - Ann Arbor, 2021
+* M.S. in Mechanical Engineering, University of Michigan - Ann Arbor, 2021
   * Jackson and Muriel Lum Fellowship (2019-2021)
 
 <!-- Hobbits
