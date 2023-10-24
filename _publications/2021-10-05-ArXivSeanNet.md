@@ -2,8 +2,6 @@
 title: "Seannet: Semantic understanding network for localization under object dynamics"
 collection: publications
 permalink: /publication/2021-10-05-ArXivSeanNet
-date: 2021-10-05
-venue: ArXiv
 ---
 <i><b>Xiao Li</b>,  Yidong Du</i>, <a href="https://www.zhenzeng.org/" target="_blank"><i>Zhen Zeng</i></a>, <a href="https://ocj.name/" target="_blank"><i>Chad Jenkins</i></a> [<a href="https://github.com/XiaoLiSean/Cognitive-Map/tree/CoRL2021" target="_blank" style="color:#5DADE2;">Github</a>，<a href="https://arxiv.org/abs/2110.02276" target="_blank" style="color:#5DADE2;">ArXiv</a>]
 
