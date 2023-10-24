@@ -1,5 +1,5 @@
 ---
-title: "Seannet: Semantic understanding network for localization under object dynamics"
+title: "Seannet: Semantic Understanding Network for Localization under Object Dynamics"
 collection: publications
 permalink: /publication/2021-10-05-ArXivSeanNet
 ---
