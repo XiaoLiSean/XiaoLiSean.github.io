@@ -3,9 +3,6 @@ title: "Seannet: Semantic Understanding Network for Localization under Object Dy
 collection: publications
 permalink: /publication/2021-10-05-ArXivSeanNet
 ---
-<!-- Include style sheet -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/assets/css/w3.css">
 
 <i><b>Xiao Li</b>,  Yidong Du</i>, <a href="https://www.zhenzeng.org/" target="_blank"><i>Zhen Zeng</i></a>, <a href="https://ocj.name/" target="_blank"><i>Chad Jenkins</i></a> 
 
