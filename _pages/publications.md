@@ -16,7 +16,3 @@ author_profile: true
 {% endfor %}
 
 
-
-<!-- Function defined to show picture slider -->
-<script type="text/javascript" src="/assets/js/showSlides.js">
-
