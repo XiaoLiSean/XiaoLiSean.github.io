@@ -24,7 +24,9 @@ author_profile: true
     <a href="https://ocj.name/" target="_blank" style="color:#000000;"><i>Chad Jenkins</i></a> 
     <br/>
     [<a href="https://xiaolisean.github.io/publication/2021-10-05-ArXivSeanNet" target="_blank" style="color:#5DADE2;">project page</a>
-    <a href="https://github.com/XiaoLiSean/Cognitive-Map/tree/CoRL2021" target="_blank" style="color:#5DADE2;">code</a>,
+    &middot
+    <a href="https://github.com/XiaoLiSean/Cognitive-Map/tree/CoRL2021" target="_blank" style="color:#5DADE2;">code</a>
+    &middot
     <a href="https://arxiv.org/abs/2110.02276" target="_blank" style="color:#5DADE2;">arXiv</a>]
   </li>
 </ul>  
