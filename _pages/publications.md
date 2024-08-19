@@ -18,7 +18,7 @@ author_profile: true
   <li>
     <b>Seannet: Semantic Understanding Network for Localization under Object Dynamics</b><br/>
     <i><b>Xiao Li</b>,  
-    Yidong Du</i>, 
+    <i>Yidong Du</i>, 
     <a href="https://www.zhenzeng.org/" target="_blank" style="color:#7a8288;"><i>Zhen Zeng</i></a>, 
     <a href="https://ocj.name/" target="_blank" style="color:#7a8288;"><i>Chad Jenkins</i></a> 
     <br/>
@@ -88,7 +88,7 @@ author_profile: true
     <a href="https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>Jiadi Zhang</i></a>, 
     <i><b>Xiao Li</b></i>,  
     <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
-    Munechika Tsutsumi, Hayato Nakada
+    <i>Munechika Tsutsumi, Hayato Nakada</i>
     <br/>
     [<a href="https://arxiv.org/pdf/2311.03555" target="_blank" style="color:#5DADE2;">arXiv</a>]
   </li>
@@ -100,7 +100,7 @@ author_profile: true
     <i><b>Xiao Li</b></i>,  
     <a href="https://scholar.google.com/citations?user=eoDt5CkAAAAJ&hl=en" target="_blank"  style="color:#7a8288;"><i>Mohammad Reza Amini</i></a>, 
     <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
-    Munechika Tsutsumi
+    <i>Munechika Tsutsumi</i>
     <br/>
     [<a href="https://www.sciencedirect.com/science/article/pii/S2405896323011011" target="_blank" style="color:#5DADE2;">paper</a>]
   </li>
@@ -137,7 +137,9 @@ author_profile: true
     <br/>
     [<a href="https://xiaolisean.github.io/publication/2022-11-02-ACA2023" target="_blank" style="color:#5DADE2;">project page</a>
     <span>&#183;</span>
-    <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adc2.117" target="_blank" style="color:#5DADE2;">paper</a>]
+    <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adc2.117" target="_blank" style="color:#5DADE2;">paper</a>
+    <span>&#183;</span>
+    <a href="https://github.com/XiaoLiSean/SetThmSLAM" target="_blank" style="color:#5DADE2;">code</a>]
   </li>
 </ul>
 <!-- ============================================================================ -->
