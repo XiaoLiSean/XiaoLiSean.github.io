@@ -37,7 +37,7 @@ author_profile: true
 <!-- ============================================================================ -->
 <ul>
   <li>
-    [<b><a href="https://cdc2024.ieeecss.org/" target="_blank" style="color:#750000;">CDC 2024</a></b>]
+    [<a href="https://cdc2024.ieeecss.org/" target="_blank" style="color:#7a8288;">CDC 2024</a>]
     <b>Autonomous Driving With Perception Uncertainties: Deep-Ensemble Based Adaptive Cruise Control</b><br/>
     <i><b>Xiao Li</b></i>, 
     <a href="https://scholar.google.com/citations?hl=en&user=UWnwlu4AAAAJ" target="_blank" style="color:#7a8288;"><i>H Eric Tseng</i></a>, 
@@ -50,7 +50,7 @@ author_profile: true
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
-    [<a href="https://acc2024.a2c2.org/" target="_blank" style="color:#750000;">ACC 2024</a>]
+    [<a href="https://acc2024.a2c2.org/" target="_blank" style="color:#7a8288;">ACC 2024</a>]
     <b>Interaction-Aware Decision-Making for Autonomous Vehicles in Forced Merging Scenario Leveraging Social Psychology Factors</b><br/>
     <i><b>Xiao Li</b></i>,  
     <a href="https://scholar.google.com/citations?user=x9QcHDgAAAAJ&hl=en&authuser=1" target="_blank" style="color:#7a8288;"><i>Kaiwen Liu</i></a>, 
@@ -64,7 +64,7 @@ author_profile: true
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
-    [<a href="https://l4dc.web.ox.ac.uk/home" target="_blank" style="color:#750000;">L4DC 2024</a>]
+    [<a href="https://l4dc.web.ox.ac.uk/home" target="_blank" style="color:#7a8288;">L4DC 2024</a>]
     <b>System-level Safety Guard: Safe Tracking Control through Uncertain Neural Network Dynamics Models</b><br/>
     <i><b>Xiao Li</b></i>, 
     <a href="https://scholar.google.com/citations?user=QlZgA6sAAAAJ&hl=en&oi=ao" target="_blank" style="color:#7a8288;"><i>Yutong Li</i></a>, 
@@ -83,7 +83,7 @@ author_profile: true
   </li>
   <!-- ---------------------------------------------------- -->  
   <li>
-    [<a href="https://acc2024.a2c2.org/" target="_blank" style="color:#750000;">ACC 2024</a>]
+    [<a href="https://acc2024.a2c2.org/" target="_blank" style="color:#7a8288;">ACC 2024</a>]
     <b>Model Predictive Control of Diesel Engine Emissions Based on Neural Network Modeling</b><br/>    
     <a href="https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>Jiadi Zhang</i></a>, 
     <i><b>Xiao Li</b></i>,  
@@ -94,7 +94,7 @@ author_profile: true
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
-    [<a href="https://ifac2023.org/" target="_blank" style="color:#750000;">IFAC 2023</a>]
+    [<a href="https://ifac2023.org/" target="_blank" style="color:#7a8288;">IFAC 2023</a>]
     <b>Modeling and Control of Diesel Engine Emissions using Multi-layer Neural Networks and Economic Model Predictive Control</b><br/>    
     <a href="https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>Jiadi Zhang</i></a>, 
     <i><b>Xiao Li</b></i>,  
@@ -113,7 +113,7 @@ author_profile: true
 <!-- ============================================================================ -->
 <ul>
   <li>
-    [TCST 2024]
+    [<a href="https://www.ieeecss.org/publication/transactions-control-systems-technology" target="_blank" style="color:#7a8288;">TCST</a>]
     <b>Decision-Making for Autonomous Vehicles with Interaction-Aware Behavioral Prediction and Social-Attention Neural Network</b><br/>
     <i><b>Xiao Li</b></i>, 
     <a href="https://scholar.google.com/citations?user=x9QcHDgAAAAJ&hl=en&authuser=1" target="_blank" style="color:#7a8288;"><i>Kaiwen Liu</i></a>, 
@@ -127,7 +127,7 @@ author_profile: true
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
-    [ACA 2023]
+    [<a href="https://onlinelibrary.wiley.com/journal/25780727" target="_blank" style="color:#7a8288;">ACA</a>]
     <b>Set-theoretic Localization for Mobile Robots with Infrastructure-Based Sensing</b><br/>
     <i><b>Xiao Li</b></i>, 
     <a href="https://scholar.google.com/citations?user=QlZgA6sAAAAJ&hl=en&oi=ao" target="_blank" style="color:#7a8288;"><i>Yutong Li</i></a>, 
