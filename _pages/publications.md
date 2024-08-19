@@ -37,7 +37,7 @@ author_profile: true
 <!-- ============================================================================ -->
 <ul>
   <li>
-    [CDC 2024] 
+    [<b><a href="https://cdc2024.ieeecss.org/" target="_blank" style="color:#750000;">CDC 2024</a></b>]
     <b>Autonomous Driving With Perception Uncertainties: Deep-Ensemble Based Adaptive Cruise Control</b><br/>
     <i><b>Xiao Li</b></i>, 
     <a href="https://scholar.google.com/citations?hl=en&user=UWnwlu4AAAAJ" target="_blank" style="color:#7a8288;"><i>H Eric Tseng</i></a>, 
@@ -50,7 +50,7 @@ author_profile: true
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
-    [ACC 2024]
+    [<a href="https://acc2024.a2c2.org/" target="_blank" style="color:#750000;">ACC 2024</a>]
     <b>Interaction-Aware Decision-Making for Autonomous Vehicles in Forced Merging Scenario Leveraging Social Psychology Factors</b><br/>
     <i><b>Xiao Li</b></i>,  
     <a href="https://scholar.google.com/citations?user=x9QcHDgAAAAJ&hl=en&authuser=1" target="_blank" style="color:#7a8288;"><i>Kaiwen Liu</i></a>, 
@@ -64,7 +64,7 @@ author_profile: true
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
-    [L4DC 2024]
+    [<a href="https://l4dc.web.ox.ac.uk/home" target="_blank" style="color:#750000;">L4DC 2024</a>]
     <b>System-level Safety Guard: Safe Tracking Control through Uncertain Neural Network Dynamics Models</b><br/>
     <i><b>Xiao Li</b></i>, 
     <a href="https://scholar.google.com/citations?user=QlZgA6sAAAAJ&hl=en&oi=ao" target="_blank" style="color:#7a8288;"><i>Yutong Li</i></a>, 
@@ -75,13 +75,15 @@ author_profile: true
     <br/>
     [<a href="https://xiaolisean.github.io/publication/2023-11-01-L4DC2024" target="_blank" style="color:#5DADE2;">project page</a>
     <span>&#183;</span>
+    <a href="https://proceedings.mlr.press/v242/li24a/li24a.pdf" target="_blank" style="color:#5DADE2;">paper</a>
+    <span>&#183;</span>
     <a href="https://github.com/XiaoLiSean/MILPSafetyGuard" target="_blank" style="color:#5DADE2;">code</a>
     <span>&#183;</span>
     <a href="https://arxiv.org/abs/2312.06810" target="_blank" style="color:#5DADE2;">full report</a>]
   </li>
   <!-- ---------------------------------------------------- -->  
   <li>
-    [ACC 2024] 
+    [<a href="https://acc2024.a2c2.org/" target="_blank" style="color:#750000;">ACC 2024</a>]
     <b>Model Predictive Control of Diesel Engine Emissions Based on Neural Network Modeling</b><br/>    
     <a href="https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>Jiadi Zhang</i></a>, 
     <i><b>Xiao Li</b></i>,  
@@ -92,7 +94,7 @@ author_profile: true
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
-    [IFAC 2023] 
+    [<a href="https://ifac2023.org/" target="_blank" style="color:#750000;">IFAC 2023</a>]
     <b>Modeling and Control of Diesel Engine Emissions using Multi-layer Neural Networks and Economic Model Predictive Control</b><br/>    
     <a href="https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>Jiadi Zhang</i></a>, 
     <i><b>Xiao Li</b></i>,  
@@ -121,7 +123,7 @@ author_profile: true
     <br/>
     [<a href="https://xiaolisean.github.io/publication/2023-10-31-TCST2024" target="_blank" style="color:#5DADE2;">project page</a>
     <span>&#183;</span>
-    <a href="https://arxiv.org/abs/2310.20148" target="_blank" style="color:#5DADE2;">ArXiv</a>>]
+    <a href="https://arxiv.org/abs/2310.20148" target="_blank" style="color:#5DADE2;">arXiv</a>]
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
@@ -135,7 +137,7 @@ author_profile: true
     <br/>
     [<a href="https://xiaolisean.github.io/publication/2022-11-02-ACA2023" target="_blank" style="color:#5DADE2;">project page</a>
     <span>&#183;</span>
-    <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adc2.117" target="_blank" style="color:#5DADE2;">paper</a>>]
+    <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adc2.117" target="_blank" style="color:#5DADE2;">paper</a>]
   </li>
 </ul>
 <!-- ============================================================================ -->
