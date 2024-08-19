@@ -117,7 +117,7 @@ author_profile: true
     <b>Decision-Making for Autonomous Vehicles with Interaction-Aware Behavioral Prediction and Social-Attention Neural Network</b><br/>
     <i><b>Xiao Li</b></i>, 
     <a href="https://scholar.google.com/citations?user=x9QcHDgAAAAJ&hl=en&authuser=1" target="_blank" style="color:#7a8288;"><i>Kaiwen Liu</i></a>, 
-    <a href="https://scholar.google.com/citations?hl=en&user=UWnwlu4AAAAJ" target="_blank" style="color:#7a8288;"><i>H Eric Tseng</i></a>
+    <a href="https://scholar.google.com/citations?hl=en&user=UWnwlu4AAAAJ" target="_blank" style="color:#7a8288;"><i>H Eric Tseng</i></a>,
     <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
     <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>  
     <br/>
