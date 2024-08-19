@@ -17,7 +17,7 @@ author_profile: true
 <ul>
   <li>
     <b>Seannet: Semantic Understanding Network for Localization under Object Dynamics</b><br/>
-    <i><b>Xiao Li</b>,  
+    <i><b>Xiao Li</b></i>,  
     <i>Yidong Du</i>, 
     <a href="https://www.zhenzeng.org/" target="_blank" style="color:#7a8288;"><i>Zhen Zeng</i></a>, 
     <a href="https://ocj.name/" target="_blank" style="color:#7a8288;"><i>Chad Jenkins</i></a> 
