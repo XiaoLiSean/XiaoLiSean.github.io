@@ -4,8 +4,7 @@ collection: publications
 permalink: /publication/2021-10-05-ArXivSeanNet
 ---
 
-<i><b>Xiao Li</b></i>,  
-<i>Yidong Du</i>, 
+<i><b>Xiao Li</b>, Yidong Du</i>, 
 <a href="https://www.zhenzeng.org/" target="_blank" style="color:#7a8288;"><i>Zhen Zeng</i></a>, 
 <a href="https://ocj.name/" target="_blank" style="color:#7a8288;"><i>Chad Jenkins</i></a> 
 
