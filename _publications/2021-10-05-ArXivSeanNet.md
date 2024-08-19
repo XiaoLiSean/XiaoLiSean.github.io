@@ -2,8 +2,6 @@
 title: "Seannet: Semantic Understanding Network for Localization under Object Dynamics"
 collection: publications
 permalink: /publication/2021-10-05-ArXivSeanNet
-date: 2024-08-19
-venue: 'Preprints'
 ---
 
 <i><b>Xiao Li</b>,  Yidong Du</i>, <a href="https://www.zhenzeng.org/" target="_blank"><i>Zhen Zeng</i></a>, <a href="https://ocj.name/" target="_blank"><i>Chad Jenkins</i></a> 
