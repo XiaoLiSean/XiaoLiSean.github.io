@@ -70,7 +70,6 @@ author_profile: true
     <a href="https://scholar.google.com/citations?user=QlZgA6sAAAAJ&hl=en&oi=ao" target="_blank" style="color:#7a8288;"><i>Yutong Li</i></a>, 
     <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
     <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>  
-    <span>&#183;</span>
     <b><a href="https://l4dc.web.ox.ac.uk/oral-presentations" target="_blank" style="color:#750000;">(Selected for Oral Presentation, 7.5%)</a></b>
     <br/>
     [<a href="https://xiaolisean.github.io/publication/2023-11-01-L4DC2024" target="_blank" style="color:#5DADE2;">project page</a>
