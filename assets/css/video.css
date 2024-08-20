@@ -1,12 +1,12 @@
 .video-container {
     width: 100vw !important; /* Full viewport width */
-    height: 47vw !important; /* 30/64*200 of the viewport width */
+    height: 47vw !important; /* 30/64*100 of the viewport width */
     position: relative;
     overflow: hidden;
 }
 
 .video-container iframe {
-    width: 200%;
-    height: 200%;
+    width: 100%;
+    height: 100%;
     border: none; /* Remove iframe border */
 }
