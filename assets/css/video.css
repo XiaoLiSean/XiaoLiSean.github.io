@@ -1,6 +1,6 @@
 .video-container {
-    width: 100vw; /* Full viewport width */
-    height: 47vw; /* 30% of the viewport width */
+    width: 200vw; /* Full viewport width */
+    height: 94vw; /* 30/64*200 of the viewport width */
     position: relative;
     overflow: hidden;
 }
