@@ -17,7 +17,7 @@
 }
 
 iframe {
-    width: 100vw; 
-    height: 46.88vw; 
+    width: 100% !important; 
+    height: 46.88vw !important; 
     background:red;  
 }
