@@ -124,7 +124,7 @@ author_profile: true
     <br/>
     [<a href="https://xiaolisean.github.io/publication/2023-10-31-TCST2024" target="_blank" style="color:#5DADE2;">project page</a>
     <span>&#183;</span>
-    <a href="https://arxiv.org/abs/2310.20148" target="_blank" style="color:#5DADE2;">arXiv</a>]
+    <a href="https://ieeexplore.ieee.org/abstract/document/10704787" target="_blank" style="color:#5DADE2;">paper</a>]
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
