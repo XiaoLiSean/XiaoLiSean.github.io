@@ -60,7 +60,9 @@ author_profile: true
     <br/>
     [<a href="https://xiaolisean.github.io/publication/2023-09-25-ACC2024" target="_blank" style="color:#5DADE2;">project page</a>
     <span>&#183;</span>
-    <a href="https://arxiv.org/abs/2309.14497" target="_blank" style="color:#5DADE2;">arXiv</a>]
+    <a href="https://ieeexplore.ieee.org/abstract/document/10644597" target="_blank" style="color:#5DADE2;">paper</a>
+    <span>&#183;</span>
+    <a href="https://github.com/XiaoLiSean/SocialPsyFactorInMerging" target="_blank" style="color:#5DADE2;">code</a>]
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
@@ -89,7 +91,7 @@ author_profile: true
     <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
     <i>Munechika Tsutsumi, Hayato Nakada</i>
     <br/>
-    [<a href="https://arxiv.org/pdf/2311.03555" target="_blank" style="color:#5DADE2;">arXiv</a>]
+    [<a href="https://ieeexplore.ieee.org/abstract/document/10644759" target="_blank" style="color:#5DADE2;">paper</a>]
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
