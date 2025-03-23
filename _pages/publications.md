@@ -28,6 +28,17 @@ author_profile: true
     <span>&#183;</span>
     <a href="https://arxiv.org/abs/2110.02276" target="_blank" style="color:#5DADE2;">arXiv</a>]
   </li>
+  <!-- ---------------------------------------------------- -->
+  <li>
+    <b>Safe Adaptive Cruise Control Under Perception Uncertainty: A Deep Ensemble and Conformal Tube Model Predictive Control Approach</b><br/>
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>  
+    <br/>
+    [<a href="https://xiaolisean.github.io/publication/2025-12-16-CDC2025" target="_blank" style="color:#5DADE2;">project page</a>
+    <span>&#183;</span>
+    <a href="https://arxiv.org/abs/2412.03792" target="_blank" style="color:#5DADE2;">arXiv</a>]
+  </li>
 </ul>  
 <!-- ============================================================================ -->
 <br/> 
@@ -46,7 +57,7 @@ author_profile: true
     <br/>
     [<a href="https://xiaolisean.github.io/publication/2024-12-16-CDC2024" target="_blank" style="color:#5DADE2;">project page</a>
     <span>&#183;</span>
-    <a href="https://arxiv.org/abs/2403.15577" target="_blank" style="color:#5DADE2;">arXiv</a>]
+    <a href="https://ieeexplore.ieee.org/document/10886150" target="_blank" style="color:#5DADE2;">Paper</a>]
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
