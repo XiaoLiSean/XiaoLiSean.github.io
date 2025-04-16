@@ -38,6 +38,15 @@ author_profile: true
     [<a href="https://xiaolisean.github.io/publication/2025-12-16-CDC2025" target="_blank" style="color:#5DADE2;">project page</a>
     <span>&#183;</span>
     <a href="https://arxiv.org/abs/2412.03792" target="_blank" style="color:#5DADE2;">arXiv</a>]
+  </li>  
+  <!-- ---------------------------------------------------- -->
+  <li>
+    <b>Control Invariant Sets for Neural Network Dynamical Systems and Recursive Feasibility in Model Predictive Control</b><br/>
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>  
+    <br/>
+    [<a href="https://xiaolisean.github.io/publication/2025-12-24-TAC2025" target="_blank" style="color:#5DADE2;">project page</a>]
   </li>
 </ul>  
 <!-- ============================================================================ -->
