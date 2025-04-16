@@ -125,6 +125,17 @@ author_profile: true
     <br/>
     [<a href="https://www.sciencedirect.com/science/article/pii/S2405896323011011" target="_blank" style="color:#5DADE2;">paper</a>]
   </li>
+  <!-- ---------------------------------------------------- -->
+  <li>
+    [<a href="https://www.sae.org/" target="_blank" style="color:#494e52;">SAE 2025</a>]
+    <b>Neural Network Based Modeling and Model Predictive Control for Reduction in Diesel Emissions</b><br/>    
+    <a href="https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>Jiadi Zhang</i></a>, 
+    <i><b>Xiao Li</b></i>,  
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>,  
+    <i>Munechika Tsutsumi, Hayato Nakada</i>
+    <br/>
+    [<a href="https://www.sae.org/publications/technical-papers/content/2025-01-8369/" target="_blank" style="color:#5DADE2;">paper</a>]
+  </li>
 </ul>
 <!-- ============================================================================ -->
 <br/> 
