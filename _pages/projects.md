@@ -3,8 +3,6 @@ layout: archive
 title: "Selected Projects"
 permalink: /projects/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 
@@ -14,6 +12,61 @@ redirect_from:
 
 {% include base_path %}
 
+<!-- ============================================================================ -->
+<hr>
+<b>Test Platform for Autonomous Driving Functionalities</b> [<a href="https://github.com/yutlizy/RC-car" target="_blank" style="color:#5DADE2;">Github</a>]
+<br>
+<i>ME 590 Independent Study in Collaboration with Dr. Yutong Li, Advisor:</i> <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#5DADE2;"><i>Prof. Ilya Kolmanovsky</i></a>, <a href="https://me.engin.umich.edu/people/faculty/bogdan-epureanu" target="_blank" style="color:#5DADE2;"><i>Prof. Bogdan Epureanu</i></a>
+<p>Develope software and hardware RC-Car platform for validate autonomous parking application. (i.e. path planning, control, and visual-based localization)</p>
+
+<div class="w3-content w3-display-container" id="slideshow1">
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/rccar.png" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      RC Car
+    </div>
+  </div>
+
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/path_planning.png" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      MATLAB Parking Valet Path Planning
+    </div>
+  </div>
+
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/OptiTrack Localization.gif" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      OptiTrack Localization
+    </div>
+  </div>
+
+  <!-- The image w3-content container is of max_width 980 for all -->
+  <!--   Keep ratio of 16:9
+  height = 980*9/16
+  image_width = height/original_h(850)*original_w(1042)
+  padding = (980 - image_width)/image_width/2 *100% -->
+
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/trajectory tracking.gif" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      Trajectory Tracking
+    </div>
+  </div>
+
+  <div class="w3-display-container mySlides">
+    <img src="http://XiaoLiSean.github.io/images/Autonomous Parking.gif" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      Autonomous Parking
+    </div>
+  </div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusSlides(-1, this.parentNode)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
+</div>
+
+
+<!-- ============================================================================ -->
 <!-- Data-driven ODE Project -->
 <hr>
 <b>FastSLAM and Data Association Error Analysis</b> [<a href="https://github.com/XiaoLiSean/fastSLAM" target="_blank" style="color:#5DADE2;">Github</a>],[<a href="https://www.youtube.com/watch?v=l1vEpVRktko" target="_blank" style="color:#5DADE2;">Video</a>]
@@ -56,6 +109,7 @@ redirect_from:
 </div>
 
 
+<!-- ============================================================================ -->
 <!-- Data-driven ODE Project -->
 <hr>
 <b>Data-driven Analysis on SEIRS ODE</b> [<a href="https://github.com/XiaoLiSean/Machine_Learning_SEIRS" target="_blank" style="color:#5DADE2;">Github</a>]
@@ -98,6 +152,8 @@ redirect_from:
 </div>
 
 
+<!-- ============================================================================ -->
+
 <!-- Origami Wheel Project -->
 <hr>
 <b>Car with Transformable Wheel Using Compliant Origami Mechanism</b>
@@ -139,6 +195,8 @@ redirect_from:
 <button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
 </div>
 
+
+<!-- ============================================================================ -->
 <!-- Trebuchet Project -->
 <hr>
 <b>Controlled Trebuchet Car</b>
