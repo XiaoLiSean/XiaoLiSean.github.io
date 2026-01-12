@@ -21,21 +21,21 @@ author_profile: true
 
 <div class="w3-content w3-display-container" id="slideshow1">
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/rccar.png" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/rccar.png" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       RC Car
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/path_planning.png" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/path_planning.png" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       MATLAB Parking Valet Path Planning
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/OptiTrack Localization.gif" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/OptiTrack Localization.gif" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       OptiTrack Localization
     </div>
@@ -48,14 +48,14 @@ author_profile: true
   padding = (980 - image_width)/image_width/2 *100% -->
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/trajectory tracking.gif" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/trajectory tracking.gif" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Trajectory Tracking
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/Autonomous Parking.gif" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/Autonomous Parking.gif" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Autonomous Parking
     </div>
@@ -77,28 +77,28 @@ author_profile: true
 <div class="w3-content w3-display-container" id="slideshow4">
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/fastslam.gif" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/fastslam.gif" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       FastSLAM2.0 Tested on Victoria Park Dataset
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/fastslamToy.gif" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/fastslamToy.gif" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       FastSLAM Tested on Toy Dataset
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/dubious.png" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/dubious.png" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Dubious Feature
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/unknow1_err.png" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/unknow1_err.png" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Error Analysis on Toy Dataset
     </div>
@@ -107,50 +107,6 @@ author_profile: true
 <button class="w3-button w3-display-left w3-black" onclick="plusSlides(-1, this.parentNode)">&#10094;</button>
 <button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
 </div>
-
-
-<!-- ============================================================================ -->
-<!-- Data-driven ODE Project -->
-<hr>
-<b>Data-driven Analysis on SEIRS ODE</b> [<a href="https://github.com/XiaoLiSean/Machine_Learning_SEIRS" target="_blank" style="color:#5DADE2;">Github</a>]
-<br>
-<i>AEROSP 729 Machine Learning for Science</i>, <i>Advisor:</i> <a href="https://aero.engin.umich.edu/people/karthik-duraisamy/" target="_blank" style="color:#5DADE2;"><i>Prof. Karthik Duraisamy</i></a>
-<p>Apply data-driven methods (e.g. neural network, dynamic modes decomposition) to analyze epidemic trends modeled by SEIRS ODE </p>
-
-<div class="w3-content w3-display-container" id="slideshow3">
-
-  <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/seirs.png" style="width:100%">
-    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-      SEIRS ODE
-    </div>
-  </div>
-
-  <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/nn.png" style="width:100%">
-    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-      Neural Network Prediction
-    </div>
-  </div>
-
-  <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/koop.png" style="width:100%">
-    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-      Koopman Decomposition Prediction
-    </div>
-  </div>
-
-  <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/dmd.png" style="width:100%">
-    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-      Dynamic Modes Decomposition Prediction
-    </div>
-  </div>
-
-<button class="w3-button w3-display-left w3-black" onclick="plusSlides(-1, this.parentNode)">&#10094;</button>
-<button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
-</div>
-
 
 <!-- ============================================================================ -->
 
@@ -164,28 +120,28 @@ author_profile: true
 <div class="w3-content w3-display-container" id="slideshow2">
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/car.png" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/car.png" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Assembling  View
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/explosiveView.jpg" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/explosiveView.jpg" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Explosive View
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/Climbing.jpg" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/Climbing.jpg" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Climbing
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/origamiWheel.gif" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/origamiWheel.gif" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Origami Wheel Transformation
     </div>
@@ -206,21 +162,21 @@ author_profile: true
 
 <div class="w3-content w3-display-container" id="slideshow1">
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/trebuchetAssemble.jpg" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/trebuchetAssemble.jpg" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Assembling  View
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/trebuchetExplosive.jpg" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/trebuchetExplosive.jpg" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Explosive View
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/shooting.png" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/shooting.png" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Shooting Mechanism
     </div>
