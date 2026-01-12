@@ -66,7 +66,7 @@ author_profile: true
 <b>FastSLAM and Data Association Error Analysis</b> [<a href="https://github.com/XiaoLiSean/fastSLAM" target="_blank" style="color:#5DADE2;">Github</a>],[<a href="https://www.youtube.com/watch?v=l1vEpVRktko" target="_blank" style="color:#5DADE2;">Video</a>]
 <br>
 <a href="https://robots.engin.umich.edu/mobilerobotics/" target="_blank" style="color:#5DADE2;"><i>NAVARCH 568 Mobile Robotics</i></a>, <i>Advisor:</i> <a href="https://robotics.umich.edu/profile/maani-ghaffari/" target="_blank" style="color:#5DADE2;"><i>Prof. Maani Ghaffari</i></a>
-<p>FastSLAM algorithms proposed in <a href="http://www.probabilistic-robotics.org/" target="_blank" style="color:#5DADE2;">"Probabilistic Robotics"</a> are tested on toy and Victoria Park Datasets</p>
+<p>FastSLAM algorithms proposed in <a href="http://www.probabilistic-robotics.org/" target="_blank" style="color:#5DADE2;">"Probabilistic Robotics"</a> are coded and tested on toy and Victoria Park Datasets</p>
 
 <div class="w3-content w3-display-container" id="slideshow2">
   <div class="w3-display-container mySlides">
