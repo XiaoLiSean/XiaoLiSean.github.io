@@ -17,7 +17,7 @@ author_profile: true
 <b>Test Platform for Autonomous Driving Functionalities</b> [<a href="https://github.com/yutlizy/RC-car" target="_blank" style="color:#5DADE2;">Github</a>]
 <br>
 <i>ME 590 Independent Study in Collaboration with Dr. Yutong Li, Advisor:</i> <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#5DADE2;"><i>Prof. Ilya Kolmanovsky</i></a>, <a href="https://me.engin.umich.edu/people/faculty/bogdan-epureanu" target="_blank" style="color:#5DADE2;"><i>Prof. Bogdan Epureanu</i></a>
-<p>Develope software and hardware RC-Car platform for validate autonomous parking application. (i.e. path planning, control, and visual-based localization)</p>
+<p>Develop a software and hardware RC car platform to validate autonomous parking applications, including path planning, control, and vision-based localization.</p>
 
 <div class="w3-content w3-display-container" id="slideshow1">
   <div class="w3-display-container mySlides">
@@ -30,7 +30,7 @@ author_profile: true
   <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/projects/path_planning.png" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-      MATLAB Parking Valet Path Planning
+      Path Planning
     </div>
   </div>
 
@@ -40,12 +40,6 @@ author_profile: true
       OptiTrack Localization
     </div>
   </div>
-
-  <!-- The image w3-content container is of max_width 980 for all -->
-  <!--   Keep ratio of 16:9
-  height = 980*9/16
-  image_width = height/original_h(850)*original_w(1042)
-  padding = (980 - image_width)/image_width/2 *100% -->
 
   <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/projects/trajectory tracking.gif" style="width:100%">
@@ -74,8 +68,7 @@ author_profile: true
 <a href="https://robots.engin.umich.edu/mobilerobotics/" target="_blank" style="color:#5DADE2;"><i>NAVARCH 568 Mobile Robotics</i></a>, <i>Advisor:</i> <a href="https://robotics.umich.edu/profile/maani-ghaffari/" target="_blank" style="color:#5DADE2;"><i>Prof. Maani Ghaffari</i></a>
 <p>FastSLAM algorithms proposed in <a href="http://www.probabilistic-robotics.org/" target="_blank" style="color:#5DADE2;">"Probabilistic Robotics"</a> are tested on toy and Victoria Park Datasets</p>
 
-<div class="w3-content w3-display-container" id="slideshow4">
-
+<div class="w3-content w3-display-container" id="slideshow2">
   <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/projects/fastslam.gif" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
@@ -115,9 +108,9 @@ author_profile: true
 <b>Car with Transformable Wheel Using Compliant Origami Mechanism</b>
 <br>
 <i>VM 350 Design & Manufacturing II</i>, <i>Advisor:</i> <a href="https://sites.ji.sjtu.edu.cn/jaehyungju/" target="_blank" style="color:#5DADE2;"><i>Prof. Ju Jaehyung</i></a>
-<p>Laminated material is used to fabricate the compliant origami wheels which enable flexible control of the wheel diameter and improve adaptability to orographical variations.</p>
+<p>Laminated materials are used to fabricate compliant origami wheels, enabling flexible control of wheel diameter and improved adaptability to terrain variations.</p>
 
-<div class="w3-content w3-display-container" id="slideshow2">
+<div class="w3-content w3-display-container" id="slideshow3">
 
   <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/projects/car.png" style="width:100%">
@@ -158,9 +151,9 @@ author_profile: true
 <b>Controlled Trebuchet Car</b>
 <br>
 <i>VM 250 Design & Manufacturing I</i>
-<p>Controllable trebuchet car for ball shooting gaming</p>
+<p>Build a remote-controlled trebuchet car designed for accurate ball launching in competitive games.</p>
 
-<div class="w3-content w3-display-container" id="slideshow1">
+<div class="w3-content w3-display-container" id="slideshow4">
   <div class="w3-display-container mySlides">
     <img src="http://XiaoLiSean.github.io/images/projects/trebuchetAssemble.jpg" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
