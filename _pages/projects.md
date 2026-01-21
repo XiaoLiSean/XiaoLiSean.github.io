@@ -13,17 +13,16 @@ author_profile: true
 {% include base_path %}
 
 <!-- ============================================================================ -->
-<hr /> <h2>Active Projects</h2> 
+<hr /> <h2>Active Projects</h2> <hr />
 <!-- ============================================================================ -->
 
 <b>Diffusion policy for car racing with CBF-based safety filter and RL guidance</b> [<a href="https://github.com/XiaoLiSean/racing-diffusion-rl" target="_blank" style="color:#5DADE2;">Github</a>]
 
 <!-- ============================================================================ -->
-<hr /> <h2>Arxived Projects</h2> 
+<hr /> <h2>Arxived Projects</h2> <hr />
 <!-- ============================================================================ -->
 
 <!-- ============================================================================ -->
-<hr>
 <b>Test Platform for Autonomous Driving Functionalities</b> [<a href="https://github.com/yutlizy/RC-car" target="_blank" style="color:#5DADE2;">Github</a>]
 <br>
 <i>ME 590 Independent Study in Collaboration with Dr. Yutong Li, Advisor:</i> <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#5DADE2;"><i>Prof. Ilya Kolmanovsky</i></a>, <a href="https://me.engin.umich.edu/people/faculty/bogdan-epureanu" target="_blank" style="color:#5DADE2;"><i>Prof. Bogdan Epureanu</i></a>
