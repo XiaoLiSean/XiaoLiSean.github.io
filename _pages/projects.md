@@ -13,6 +13,16 @@ author_profile: true
 {% include base_path %}
 
 <!-- ============================================================================ -->
+<hr /> <h2>Active Projects</h2> 
+<!-- ============================================================================ -->
+
+<b>Diffusion policy for car racing with CBF-based safety filter and RL guidance</b> [<a href="https://github.com/XiaoLiSean/racing-diffusion-rl" target="_blank" style="color:#5DADE2;">Github</a>]
+
+<!-- ============================================================================ -->
+<hr /> <h2>Arxived Projects</h2> 
+<!-- ============================================================================ -->
+
+<!-- ============================================================================ -->
 <hr>
 <b>Test Platform for Autonomous Driving Functionalities</b> [<a href="https://github.com/yutlizy/RC-car" target="_blank" style="color:#5DADE2;">Github</a>]
 <br>
