@@ -12,6 +12,8 @@ author_profile: true
 
 {% include base_path %}
 
+<hr />
+
 * <b>Diffusion policy for car racing with CBF-based safety filter and RL guidance</b> [<a href="https://github.com/XiaoLiSean/racing-diffusion-rl" target="_blank" style="color:#5DADE2;">Github</a>]
 
 * <b>Vision-Language Model for Highway Vehicle Intent Inference and Trajectory Prediction</b> [<a href="https://github.com/XiaoLiSean/vlm-drv-intention" target="_blank" style="color:#5DADE2;">Github</a>]
