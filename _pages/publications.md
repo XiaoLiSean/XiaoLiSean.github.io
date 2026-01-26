@@ -49,6 +49,7 @@ author_profile: true
 <ul>
   <!-- ---------------------------------------------------- -->
   <li>
+    [<a href="https://cdc2025.ieeecss.org/" target="_blank" style="color:#494e52;">CDC 2025</a>]
     <b>Safe Adaptive Cruise Control Under Perception Uncertainty: A Deep Ensemble and Conformal Tube Model Predictive Control Approach</b><br/>
     <i><b>Xiao Li</b></i>, 
     <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
