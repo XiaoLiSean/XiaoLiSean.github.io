@@ -30,17 +30,6 @@ author_profile: true
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
-    <b>Safe Adaptive Cruise Control Under Perception Uncertainty: A Deep Ensemble and Conformal Tube Model Predictive Control Approach</b><br/>
-    <i><b>Xiao Li</b></i>, 
-    <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
-    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>  
-    <br/>
-    [<a href="https://xiaolisean.github.io/publication/2025-12-16-CDC2025" target="_blank" style="color:#5DADE2;">project page</a>
-    <span>&#183;</span>
-    <a href="https://arxiv.org/abs/2412.03792" target="_blank" style="color:#5DADE2;">arXiv</a>]
-  </li>  
-  <!-- ---------------------------------------------------- -->
-  <li>
     <b>Control Invariant Sets for Neural Network Dynamical Systems and Recursive Feasibility in Model Predictive Control</b><br/>
     <i><b>Xiao Li</b></i>, 
     <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
@@ -58,6 +47,18 @@ author_profile: true
 <hr /> <h2>Conferences</h2> 
 <!-- ============================================================================ -->
 <ul>
+  <!-- ---------------------------------------------------- -->
+  <li>
+    <b>Safe Adaptive Cruise Control Under Perception Uncertainty: A Deep Ensemble and Conformal Tube Model Predictive Control Approach</b><br/>
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>  
+    <br/>
+    [<a href="https://xiaolisean.github.io/publication/2025-12-16-CDC2025" target="_blank" style="color:#5DADE2;">project page</a>
+    <span>&#183;</span>
+    <a href="https://ieeexplore.ieee.org/abstract/document/11312370" target="_blank" style="color:#5DADE2;">Paper</a>]
+  </li>  
+  <!-- ---------------------------------------------------- -->
   <li>
     [<a href="https://cdc2024.ieeecss.org/" target="_blank" style="color:#494e52;">CDC 2024</a>]
     <b>Autonomous Driving With Perception Uncertainties: Deep-Ensemble Based Adaptive Cruise Control</b><br/>
