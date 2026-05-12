@@ -44,7 +44,7 @@ author_profile: true
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/projects/OptiTrack Localization.gif" style="width:100%">
+    <video src="http://XiaoLiSean.github.io/images/projects/OptiTrack Localization.mp4" style="width:100%" autoplay loop muted playsinline></video>
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       OptiTrack Localization
     </div>
@@ -58,7 +58,7 @@ author_profile: true
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/projects/Autonomous Parking.gif" style="width:100%">
+    <video src="http://XiaoLiSean.github.io/images/projects/Autonomous Parking.mp4" style="width:100%" autoplay loop muted playsinline></video>
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Autonomous Parking
     </div>

@@ -129,21 +129,29 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
+  - .claude
+  - CHANGELOG.md
+  - CONTRIBUTING.md
   - Capfile
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - LICENSE
-  - README
+  - README.md
   - Rakefile
+  - _config.dev.yml
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
   - config
   - gulpfile.js
   - log
+  - markdown_generator
   - node_modules
   - package.json
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
   - tmp
   - vendor
 keep_files:

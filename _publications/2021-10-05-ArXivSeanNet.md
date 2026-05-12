@@ -15,7 +15,7 @@ We aim for domestic robots to perform long-term indoor service. Under the object
 <b>Automated Coffee Making by a Domestic Robot</b> 
 <div class="w3-content w3-display-container" id="slideshow3">
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/serviceTask.gif" style="width:100%">
+    <video src="http://XiaoLiSean.github.io/images/serviceTask.mp4" style="width:100%" autoplay loop muted playsinline></video>
   </div>
 </div>
 
