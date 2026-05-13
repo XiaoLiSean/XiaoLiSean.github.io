@@ -13,12 +13,31 @@ I'm a Ph.D. student affiliated with the Aerospace Department, at the University 
 
 Education
 ======
-* B.S. in Mechanical Engineering, Shanghai Jiao Tong University, 2019
-  <!--* Excellent Freshman Scholarship (2015-2019)-->
-  <!--* Yu Liming Scholarship (2018)-->
-  <!--* SJTU Outstanding Graduates (2019)-->
-* M.S. in Mechanical Engineering, University of Michigan - Ann Arbor, 2021
-  <!--* Jackson and Muriel Lum Fellowship (2019-2021)-->
+<div style="display:flex; align-items:center; gap:1em; margin:0.5em 0;">
+  <img src="/images/sjtu.png" alt="Shanghai Jiao Tong University" style="width:60px; height:60px; object-fit:contain; flex-shrink:0;">
+  <div>B.S. in Mechanical Engineering, Shanghai Jiao Tong University, 2019</div>
+</div>
+<div style="display:flex; align-items:center; gap:1em; margin:0.5em 0;">
+  <img src="/images/UofM.png" alt="University of Michigan" style="width:60px; height:60px; object-fit:contain; flex-shrink:0;">
+  <div>M.S. in Mechanical Engineering, University of Michigan - Ann Arbor, 2021</div>
+</div>
+
+News
+======
+* **[2026.05]** Successfully defended my PhD thesis, *"Safe and Uncertainty-Aware Decision-Making for Autonomous Vehicles"*!
+* **[2025.09]** Awarded the [Rackham Predoctoral Fellowship](https://aero.engin.umich.edu/2026/04/16/students-recognized-with-rackham-pre-doctoral-fellowship/).
+
+Work Experience
+======
+<div style="display:flex; align-items:flex-start; gap:1em; margin:0.5em 0;">
+  <img src="/images/tri.png" alt="Toyota Research Institute" style="width:60px; height:60px; object-fit:contain; flex-shrink:0;">
+  <div>
+    <b>Toyota Research Institute</b><br/>
+    Research Intern, May 2025 &ndash; Aug 2025, Cambridge<br/>
+    <a href="https://www.tri.global/our-work/human-interactive-driving" target="_blank">Human Interactive Driving</a> division<br/>
+    Working with <a href="https://scholar.google.com/citations?user=t5KAs_YAAAAJ&amp;hl=en" target="_blank">John Talbot</a>, <a href="https://scholar.google.com/citations?user=3GjYspgAAAAJ&amp;hl=en" target="_blank">James Dallas</a>, and <a href="https://scholar.google.com/citations?user=BmXLo58AAAAJ&amp;hl=en" target="_blank">John Subosits</a>
+  </div>
+</div>
 
 <!-- Hobbits
 ======
