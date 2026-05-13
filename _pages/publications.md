@@ -27,7 +27,7 @@ author_profile: true
         <i>Dénes Takács</i>, 
         <i><b>Xiao Li</b></i>, 
         <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
-        <a href="https://scholar.google.com/citations?user=t5KAs_YAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John M. Talbot</i></a>, 
+        <a href="https://scholar.google.com/citations?user=t5KAs_YAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John Talbot</i></a>, 
         <a href="https://scholar.google.com/citations?user=3GjYspgAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>James Dallas</i></a>, 
         <a href="https://scholar.google.com/citations?user=BmXLo58AAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John Subosits</i></a>, 
         <i>Gábor Orosz</i>
@@ -68,7 +68,7 @@ author_profile: true
         <i>Illés Vörös</i>, 
         <i>Gábor Orosz</i>, 
         <i>Makoto Suminaka</i>, 
-        <a href="https://scholar.google.com/citations?user=t5KAs_YAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John M. Talbot</i></a>, 
+        <a href="https://scholar.google.com/citations?user=t5KAs_YAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John Talbot</i></a>, 
         <a href="https://scholar.google.com/citations?user=3GjYspgAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>James Dallas</i></a>, 
         <a href="https://scholar.google.com/citations?user=BmXLo58AAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John Subosits</i></a>
         <br/>
@@ -88,7 +88,7 @@ author_profile: true
         <i>Illés Vörös</i>, 
         <i><b>Xiao Li</b></i>, 
         <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
-        <a href="https://scholar.google.com/citations?user=t5KAs_YAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John M. Talbot</i></a>, 
+        <a href="https://scholar.google.com/citations?user=t5KAs_YAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John Talbot</i></a>, 
         <a href="https://scholar.google.com/citations?user=3GjYspgAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>James Dallas</i></a>, 
         <i>Makoto Suminaka</i>, 
         <a href="https://scholar.google.com/citations?user=BmXLo58AAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John Subosits</i></a>, 
