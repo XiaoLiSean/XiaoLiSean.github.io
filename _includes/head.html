@@ -46,22 +46,10 @@
   })();
 </script>
 
-<!-- Light theme: always loaded as the default. -->
-<link rel="stylesheet" id="theme-light" href="{{ base_path }}/assets/css/main.css">
-<!-- Dark theme: always loaded; the `disabled` property below gates whether it applies. -->
-<link rel="stylesheet" id="theme-dark" href="{{ base_path }}/assets/css/main-dark.css">
+<!-- Single stylesheet. Dark-mode rules in _sass/_dark-theme.scss activate
+     when [data-theme="dark"] is set on <html> (controlled by the toggle JS). -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 <!-- Responsive wrapper for embedded video iframes (.video-container). -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/video.css">
-<script>
-  // Gate the dark stylesheet via the `disabled` property — much more reliable
-  // across browsers than swapping the `media` attribute. Runs immediately after
-  // the link tags so the browser paints once with the correct stylesheet active.
-  (function() {
-    var theme = document.documentElement.dataset.resolvedTheme;
-    var dark = document.getElementById('theme-dark');
-    if (!dark) return;
-    dark.disabled = (theme !== 'dark');
-  })();
-</script>
 
 <meta http-equiv="cleartype" content="on">

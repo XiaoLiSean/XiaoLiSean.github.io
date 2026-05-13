@@ -1,22 +1,18 @@
 /*
  * Responsive 16:9 wrapper for embedded video iframes (Google Drive, YouTube, etc.).
- * Fills the parent's available width — works equally inside table cells,
- * full-width divs, and the body content area. Height is derived from the
- * aspect ratio so the iframe is never clipped.
+ * Uses the padding-bottom hack — supported by every browser since the early 2010s.
+ *
+ * The container fills its parent's available width (works in table cells,
+ * full-width divs, anywhere). padding-bottom: 56.25% creates a height equal to
+ * 56.25% of the parent width, which is exactly 9/16 — i.e. 16:9 aspect ratio.
+ * The iframe is absolutely positioned to fill the container.
  */
 .video-container {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 9;
+    height: 0;
+    padding-bottom: 56.25%;
     overflow: hidden;
-}
-
-/* Fallback for browsers without aspect-ratio support (pre-2021): padding-bottom hack. */
-@supports not (aspect-ratio: 16 / 9) {
-    .video-container {
-        height: 0;
-        padding-bottom: 56.25%; /* 9 / 16 = 0.5625 */
-    }
 }
 
 .video-container iframe {

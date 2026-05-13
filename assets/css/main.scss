@@ -39,3 +39,7 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Dark mode overrides — must be imported last so attribute-selector rules
+   appear after the base rules they need to override. */
+@import "dark-theme";
