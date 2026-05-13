@@ -26,7 +26,9 @@ $shortId = $author.id -replace 'https://openalex.org/', ''
 
 If the lookup 404s, ask the user to confirm the ORCID or paste the OpenAlex author ID directly.
 
-## Step 2 - Fetch works
+## Step 2 - Fetch works (primary + extras)
+
+### 2a. Primary: works linked to the ORCID author entity
 
 ```powershell
 $worksUrl = "https://api.openalex.org/works?filter=author.id:$shortId&per-page=200&sort=publication_year:desc"
@@ -34,6 +36,43 @@ $resp = Invoke-RestMethod -Uri $worksUrl -Headers @{ 'User-Agent' = $ua }
 $works = $resp.results
 if ($resp.meta.count -gt 200) { /* paginate with &page=2, &page=3... */ }
 ```
+
+### 2b. Extras: papers that ORCID/OpenAlex disambiguation misses
+
+ORCID is author-curated; OpenAlex disambiguation is heuristic. Both can miss papers. Read `_data/publications-extra.yml` if it exists:
+
+```yaml
+# _data/publications-extra.yml — papers NOT linked to the user's ORCID
+# author entity in OpenAlex but should be included in /scholar-update.
+
+# Individual works (give whichever identifier you have):
+extra_works:
+  - doi: 10.1109/CDC.2026.123456
+  - arxiv: 2403.12345
+  - openalex: W4400000000
+  - title: "An exact title from a paper OpenAlex indexes but doesn't link to my author entity"
+    year: 2025  # year helps disambiguate title-only entries
+
+# Additional OpenAlex author IDs for the same person — sometimes
+# OpenAlex creates multiple author entities for one researcher
+# (due to name + institution variation). Each ID's full work list is fetched.
+extra_author_ids:
+  - A5099999999
+```
+
+For each `extra_works` entry, fetch the corresponding OpenAlex work:
+- `doi`: `GET https://api.openalex.org/works/doi:<doi>`
+- `arxiv`: `GET https://api.openalex.org/works?filter=ids.openalex:!null,locations.landing_page_url.search:arxiv.org/abs/<arxiv>` or just search by title
+- `openalex`: `GET https://api.openalex.org/works/<W...>`
+- `title`+`year`: `GET https://api.openalex.org/works?search=<title>&filter=publication_year:<year>` and pick the top match (warn if no match)
+
+For each `extra_author_ids` entry, fetch that author's works the same way as Step 2a.
+
+Merge all results into `$works`. Deduplicate by OpenAlex work ID.
+
+If `_data/publications-extra.yml` does NOT exist, skip extras silently. If it exists but is empty, also skip. Mention in the final report that the file was consulted.
+
+If the report later shows a paper as `LOCAL_ONLY` and the user wants it tracked, suggest they add its identifier to `publications-extra.yml`.
 
 For each work, extract:
 
@@ -135,7 +174,9 @@ Matched: K  |  New: X  |  Changed: Y  |  Local-only: Z
 
   L1.  _publications/2021-10-05-ArXivSeanNet.md
        "Seannet: Semantic Understanding Network for Localization under Object Dynamics"
-       Likely arXiv-only and not indexed by OpenAlex. Verify on Google Scholar manually if you want.
+       Possible reasons: (a) arXiv-only and not indexed by OpenAlex yet, or (b) OpenAlex has it
+       but didn't link to the ORCID author entity. To get it tracked, add its identifier
+       (DOI / arXiv ID / OpenAlex W-id) to `_data/publications-extra.yml` and re-run.
 ```
 
 ## Step 6 - Ask which to apply
