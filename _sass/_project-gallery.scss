@@ -73,7 +73,9 @@
   display: none;
   position: fixed;
   inset: 0;
-  z-index: 1000;
+  /* High z-index so the overlay sits above the masthead (z=20) and the
+     sticky author sidebar (which can otherwise leak above lower z-index modals). */
+  z-index: 9999;
 
   &.open {
     display: block;
@@ -82,7 +84,9 @@
   &__overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.6);
+    /* Slightly more opaque so the page behind reads as a quiet backdrop,
+     not a translucent tint that makes the masthead look weird. */
+    background: rgba(0, 0, 0, 0.75);
   }
 
   &__panel {
