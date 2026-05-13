@@ -136,6 +136,28 @@ html[data-theme="dark"] {
     border-color: $dark-border;
   }
 
+  /* Social icons in the author sidebar — Minimal Mistakes hardcodes some icon
+     colors (.fa = #000 for the bare location icon, .fa-github = #171516, and
+     similar brand overrides) which read as black/near-black on the dark page.
+     Force them to the dark link color so all icons are visually consistent. */
+  .social-icons {
+    .fa,
+    .fa-github,
+    .fa-github-alt,
+    .fa-github-square,
+    .fa-linkedin,
+    .fa-linkedin-square,
+    .fa-twitter,
+    .fa-twitter-square,
+    .fa-facebook,
+    .fa-facebook-square,
+    .fa-instagram,
+    .fa-youtube,
+    .fa-youtube-square {
+      color: $dark-link;
+    }
+  }
+
   /* Notices, blockquotes */
   blockquote {
     border-left-color: $dark-border;
