@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Selected Projects"
+title: "Active Projects"
 permalink: /projects/
 author_profile: true
 ---
@@ -16,7 +16,7 @@ author_profile: true
 
 * <b>Vision-Language Model for Highway Vehicle Intent Inference and Trajectory Prediction</b> [<a href="https://github.com/XiaoLiSean/vlm-drv-intention" target="_blank" style="color:#5DADE2;">Github</a>]
 
-<hr /> <h2>Arxived Projects</h2>
+<hr /> <h2>Project Gallery</h2>
 
 <div class="project-gallery">
 
