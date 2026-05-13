@@ -21,7 +21,7 @@
     var darkLink = document.getElementById('theme-dark');
     function apply(theme) {
       document.documentElement.setAttribute('data-theme', theme);
-      if (darkLink) darkLink.media = (theme === 'dark') ? 'all' : 'not all';
+      if (darkLink) darkLink.disabled = (theme !== 'dark');
       try { localStorage.setItem('theme', theme); } catch (e) {}
     }
     btn.addEventListener('click', function() {
