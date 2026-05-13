@@ -13,31 +13,52 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-  // Resolve theme as early as possible so the link media attributes can apply without flash.
+  // Resolve theme as early as possible. Order of precedence:
+  //   1. User's stored preference from a previous toggle click (localStorage).
+  //   2. Default by local sunset/sunrise: dark after sunset, light otherwise.
+  //      Sunset is approximated for the visitor's local DATE at a fixed ~40°N
+  //      latitude using the standard NOAA solar declination formula. This is
+  //      ±~30 min from true local sunset for visitors at temperate latitudes;
+  //      good enough for "is it dark out?".
   (function() {
-    var stored = localStorage.getItem('theme'); // 'light' | 'dark' | null (auto)
+    var stored = localStorage.getItem('theme');
+    var theme;
     if (stored === 'dark' || stored === 'light') {
-      document.documentElement.setAttribute('data-theme', stored);
+      theme = stored;
     } else {
-      document.documentElement.setAttribute('data-theme',
-        window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      var date = new Date();
+      var lat = 40; // hardcoded mid-latitude; covers the dominant US/EU/Asia audience
+      var dayOfYear = Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 86400000);
+      var decl = 23.45 * Math.sin((360 / 365) * (dayOfYear - 81) * Math.PI / 180);
+      var cosHA = -Math.tan(lat * Math.PI / 180) * Math.tan(decl * Math.PI / 180);
+      if (cosHA > 1) { theme = 'dark'; }        // polar winter: sun never rises
+      else if (cosHA < -1) { theme = 'light'; } // polar summer: sun never sets
+      else {
+        var halfDay = Math.acos(cosHA) * 180 / Math.PI / 15; // hours from noon
+        var sunsetHour = 12 + halfDay;
+        var sunriseHour = 12 - halfDay;
+        var hr = date.getHours() + date.getMinutes() / 60;
+        theme = (hr > sunsetHour || hr < sunriseHour) ? 'dark' : 'light';
+      }
     }
+    document.documentElement.setAttribute('data-theme', theme);
+    document.documentElement.dataset.resolvedTheme = theme;
   })();
 </script>
 
 <!-- Light theme: always loaded as the default. -->
 <link rel="stylesheet" id="theme-light" href="{{ base_path }}/assets/css/main.css">
-<!-- Dark theme: applies via prefers-color-scheme by default; JS overrides the media attribute on toggle. -->
+<!-- Dark theme: media attribute is set by the script below based on the resolved theme.
+     Initial value matches prefers-color-scheme so the browser still preloads it on dark-OS systems. -->
 <link rel="stylesheet" id="theme-dark" href="{{ base_path }}/assets/css/main-dark.css" media="(prefers-color-scheme: dark)">
 <script>
-  // If the user has an explicit override stored, force the dark sheet on/off accordingly.
-  // Runs immediately after the links are parsed; no DOM-ready wait.
+  // Apply the resolved theme deterministically to the dark <link>. Runs immediately
+  // after the link tags so the browser only paints once with the correct stylesheet.
   (function() {
-    var stored = localStorage.getItem('theme');
-    if (stored !== 'dark' && stored !== 'light') return;
+    var theme = document.documentElement.dataset.resolvedTheme;
     var dark = document.getElementById('theme-dark');
     if (!dark) return;
-    dark.media = (stored === 'dark') ? 'all' : 'not all';
+    dark.media = (theme === 'dark') ? 'all' : 'not all';
   })();
 </script>
 

@@ -28,13 +28,8 @@
       var current = document.documentElement.getAttribute('data-theme') || 'light';
       apply(current === 'dark' ? 'light' : 'dark');
     });
-    // Keep in sync with OS preference changes when the user hasn't set an override.
-    var mq = window.matchMedia('(prefers-color-scheme: dark)');
-    if (mq.addEventListener) {
-      mq.addEventListener('change', function(e) {
-        if (localStorage.getItem('theme')) return; // user has explicit choice; ignore OS changes
-        document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
-      });
-    }
+    // Note: we no longer follow the OS prefers-color-scheme. The default is
+    // computed once per page load from local sunset (see _includes/head.html),
+    // and the toggle persists user overrides via localStorage.
   })();
 </script>
