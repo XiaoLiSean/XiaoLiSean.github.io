@@ -34,10 +34,11 @@
   width: 360px;
   height: 240px;
   flex-shrink: 0;
-  background-color: #d8dadd; /* gray fallback when no teaser image is set */
+  background-color: #ffffff;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border: 1px solid #333333; /* thin dark contour line around the box */
   border-radius: 4px;
   overflow: hidden;
   position: relative;
@@ -67,5 +68,8 @@
 }
 
 html[data-theme="dark"] .pub-teaser {
-  background-color: #2a2d33;
+  /* Keep the box white in dark mode too so letterbox bars don't shift hue across themes;
+     swap the border to a lighter color so it stays visible against the dark page. */
+  background-color: #ffffff;
+  border-color: #888888;
 }
