@@ -68,68 +68,62 @@
   }
 }
 
-/* Modal: hidden by default; .open shows it. */
-.project-modal {
-  display: none;
-  position: fixed;
-  inset: 0;
-  /* High z-index so the overlay sits above the masthead (z=20) and the
-     sticky author sidebar (which can otherwise leak above lower z-index modals). */
-  z-index: 9999;
+/* Modal: native <dialog> element. showModal() puts it in the browser's top
+   layer, which renders above ALL other content regardless of z-index. The
+   ::backdrop pseudo-element styles the area behind the dialog. */
+.project-modal.project-modal {  /* doubled selector to outweigh dialog UA defaults */
+  /* Reset dialog's UA defaults (heavy border, default padding, weird sizing). */
+  border: none;
+  padding: 0;
+  background: transparent;
+  /* Sizing of the visible panel. */
+  max-width: 900px;
+  width: calc(100% - 2em);
+  max-height: 90vh;
+  /* Center horizontally; let dialog UA handle vertical centering of the open dialog. */
+  margin: auto;
+  /* Remove default outline ring on focus (the panel itself has its own styling). */
+  outline: none;
+  overflow: visible; /* the inner panel handles its own scroll */
+}
 
-  &.open {
-    display: block;
-  }
+/* The actual visible content panel inside the dialog. */
+.project-modal__panel {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2em 2em 1.5em;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.3);
+  position: relative;
 
-  &__overlay {
-    position: absolute;
-    inset: 0;
-    /* Slightly more opaque so the page behind reads as a quiet backdrop,
-     not a translucent tint that makes the masthead look weird. */
-    background: rgba(0, 0, 0, 0.75);
-  }
-
-  &__panel {
-    position: relative;
-    max-width: 900px;
-    width: calc(100% - 2em);
-    max-height: 90vh;
-    margin: 5vh auto;
-    padding: 2em 2em 1.5em;
-    background: #fff;
-    border-radius: 8px;
-    overflow-y: auto;
-    z-index: 1001;
-    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.3);
-
-    h2 {
-      margin-top: 0;
-    }
-  }
-
-  &__close {
-    position: absolute;
-    top: 0.5em;
-    right: 0.75em;
-    background: transparent;
-    border: none;
-    font-size: 1.75em;
-    line-height: 1;
-    color: #7a8288;
-    cursor: pointer;
-    padding: 0.2em 0.4em;
-    border-radius: 4px;
-
-    &:hover {
-      color: #494e52;
-      background: #f0f1f3;
-    }
+  h2 {
+    margin-top: 0;
   }
 }
 
-/* Lock body scroll while a modal is open. */
-body.modal-open {
-  overflow: hidden;
+/* The backdrop behind the dialog (covers ENTIRE viewport including masthead). */
+.project-modal::backdrop {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.project-modal__close {
+  position: absolute;
+  top: 0.5em;
+  right: 0.75em;
+  background: transparent;
+  border: none;
+  font-size: 1.75em;
+  line-height: 1;
+  color: #7a8288;
+  cursor: pointer;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+
+  &:hover {
+    color: #494e52;
+    background: #f0f1f3;
+  }
 }
 
 /* Dark-mode overrides. */
@@ -162,6 +156,10 @@ html[data-theme="dark"] {
     background: #1e2127;
     color: #e0e0e0;
     box-shadow: 0 12px 48px rgba(0, 0, 0, 0.6);
+  }
+
+  .project-modal::backdrop {
+    background: rgba(0, 0, 0, 0.85);
   }
 
   .project-modal__close {

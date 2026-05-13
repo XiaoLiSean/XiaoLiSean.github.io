@@ -58,8 +58,7 @@ author_profile: true
 <!-- Modals (hidden until a card is clicked) -->
 <!-- ============================================================================ -->
 
-<div class="project-modal" id="modal-rccar" aria-hidden="true" role="dialog">
-  <div class="project-modal__overlay" data-close></div>
+<dialog class="project-modal" id="modal-rccar">
   <div class="project-modal__panel">
     <button class="project-modal__close" type="button" data-close aria-label="Close">&times;</button>
     <h2>Test Platform for Autonomous Driving Functionalities</h2>
@@ -97,10 +96,9 @@ author_profile: true
       <button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
     </div>
   </div>
-</div>
+</dialog>
 
-<div class="project-modal" id="modal-fastslam" aria-hidden="true" role="dialog">
-  <div class="project-modal__overlay" data-close></div>
+<dialog class="project-modal" id="modal-fastslam">
   <div class="project-modal__panel">
     <button class="project-modal__close" type="button" data-close aria-label="Close">&times;</button>
     <h2>FastSLAM and Data Association Error Analysis</h2>
@@ -135,10 +133,9 @@ author_profile: true
       <button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
     </div>
   </div>
-</div>
+</dialog>
 
-<div class="project-modal" id="modal-origami" aria-hidden="true" role="dialog">
-  <div class="project-modal__overlay" data-close></div>
+<dialog class="project-modal" id="modal-origami">
   <div class="project-modal__panel">
     <button class="project-modal__close" type="button" data-close aria-label="Close">&times;</button>
     <h2>Car with Transformable Wheel Using Compliant Origami Mechanism</h2>
@@ -170,10 +167,9 @@ author_profile: true
       <button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
     </div>
   </div>
-</div>
+</dialog>
 
-<div class="project-modal" id="modal-trebuchet" aria-hidden="true" role="dialog">
-  <div class="project-modal__overlay" data-close></div>
+<dialog class="project-modal" id="modal-trebuchet">
   <div class="project-modal__panel">
     <button class="project-modal__close" type="button" data-close aria-label="Close">&times;</button>
     <h2>Controlled Trebuchet Car</h2>
@@ -197,7 +193,7 @@ author_profile: true
       <button class="w3-button w3-display-right w3-black" onclick="plusSlides(1, this.parentNode)">&#10095;</button>
     </div>
   </div>
-</div>
+</dialog>
 
 <!-- Slideshow init (existing) -->
 <script type="text/javascript" src="/assets/js/showSlides.js"></script>
@@ -206,16 +202,17 @@ author_profile: true
      strips newlines inside <script> tags, which breaks // line comments. -->
 <script>
   (function() {
+    /* Use the native <dialog> element with showModal(). The browser puts the
+       dialog in its top layer, which sits above ALL other page content
+       regardless of z-index or stacking contexts. The masthead, sidebar,
+       footer all get covered by the ::backdrop. */
     function openModal(name) {
       var modal = document.getElementById('modal-' + name);
-      if (!modal) return;
-      modal.classList.add('open');
-      document.body.classList.add('modal-open');
+      if (!modal || typeof modal.showModal !== 'function') return;
+      modal.showModal();
     }
-    function closeAll() {
-      var open = document.querySelectorAll('.project-modal.open');
-      for (var i = 0; i < open.length; i++) open[i].classList.remove('open');
-      document.body.classList.remove('modal-open');
+    function closeModal(modal) {
+      if (modal && typeof modal.close === 'function') modal.close();
     }
     var cards = document.querySelectorAll('.project-card[data-project]');
     for (var i = 0; i < cards.length; i++) {
@@ -232,12 +229,25 @@ author_profile: true
         });
       })(cards[i]);
     }
+    /* Close button(s) inside each dialog. */
     var closers = document.querySelectorAll('.project-modal [data-close]');
     for (var j = 0; j < closers.length; j++) {
-      closers[j].addEventListener('click', closeAll);
+      (function(closer) {
+        closer.addEventListener('click', function() {
+          closeModal(closer.closest('dialog'));
+        });
+      })(closers[j]);
     }
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') closeAll();
-    });
+    /* Click on the ::backdrop closes the dialog. We can't bind directly to the
+       backdrop pseudo-element, but a click on the dialog itself outside its
+       inner panel registers as a click on the dialog element. */
+    var dialogs = document.querySelectorAll('dialog.project-modal');
+    for (var k = 0; k < dialogs.length; k++) {
+      (function(dlg) {
+        dlg.addEventListener('click', function(e) {
+          if (e.target === dlg) closeModal(dlg);
+        });
+      })(dialogs[k]);
+    }
   })();
 </script>
