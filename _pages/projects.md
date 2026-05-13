@@ -24,7 +24,7 @@ author_profile: true
     <img class="project-card__thumb" src="/images/projects/rccar.png" alt="RC car platform">
     <div class="project-card__caption">
       <span class="project-card__title">Test Platform for Autonomous Driving</span>
-      <span class="project-card__brief">RC car platform for autonomous parking with path planning, control, and vision-based localization.</span>
+      <span class="project-card__brief">RC car platform for autonomous parking with path planning, control, and infrastructure-based localization.</span>
     </div>
   </a>
 
@@ -70,7 +70,7 @@ author_profile: true
       <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#5DADE2;"><i>Prof. Ilya Kolmanovsky</i></a>,
       <a href="https://me.engin.umich.edu/people/faculty/bogdan-epureanu" target="_blank" style="color:#5DADE2;"><i>Prof. Bogdan Epureanu</i></a>
     </p>
-    <p>Develop a software and hardware RC car platform to validate autonomous parking applications, including path planning, control, and vision-based localization.</p>
+    <p>Develop a software and hardware RC car platform to validate autonomous parking applications, including path planning, control, and infrastructure-based localization.</p>
 
     <div class="w3-content w3-display-container" id="slideshow1">
       <div class="w3-display-container mySlides">
