@@ -26,12 +26,12 @@ I'm a Ph.D. student affiliated with the Aerospace Department, at the University 
 * **[2025.09]** Awarded the [Rackham Predoctoral Fellowship](https://aero.engin.umich.edu/2026/04/16/students-recognized-with-rackham-pre-doctoral-fellowship/).
 
 <h1 id="work-experience" style="margin-top:2.5em;">Work Experience</h1>
-<div style="display:flex; align-items:flex-start; gap:1em; margin:0.5em 0;">
-  <img src="/images/tri.png" alt="Toyota Research Institute" style="width:auto; height:75px; object-fit:contain; flex-shrink:0;">
+<div style="display:flex; align-items:center; gap:1em; margin:0.5em 0;">
+  <img src="/images/tri.png" alt="Toyota Research Institute" style="width:auto; height:100px; object-fit:contain; flex-shrink:0;">
   <div>
-    <b>Toyota Research Institute</b><br/>
-    <a href="https://www.tri.global/our-work/human-interactive-driving" target="_blank">HID Division</a><br/>
-    Research Intern, May 2025 &ndash; Aug 2025, Cambridge. Working with <a href="https://scholar.google.com/citations?user=t5KAs_YAAAAJ&amp;hl=en" target="_blank">John Talbot</a>, <a href="https://scholar.google.com/citations?user=3GjYspgAAAAJ&amp;hl=en" target="_blank">James Dallas</a>, and <a href="https://scholar.google.com/citations?user=BmXLo58AAAAJ&amp;hl=en" target="_blank">John Subosits</a>.
+    <b>Toyota Research Institute</b>, <a href="https://www.tri.global/our-work/human-interactive-driving" target="_blank">HID Division</a><br/>
+    Research Intern, May 2025 &ndash; Aug 2025, Cambridge<br/>
+    Working with <a href="https://scholar.google.com/citations?user=t5KAs_YAAAAJ&amp;hl=en" target="_blank">John Talbot</a>, <a href="https://scholar.google.com/citations?user=3GjYspgAAAAJ&amp;hl=en" target="_blank">James Dallas</a>, and <a href="https://scholar.google.com/citations?user=BmXLo58AAAAJ&amp;hl=en" target="_blank">John Subosits</a>
   </div>
 </div>
 
