@@ -3,7 +3,7 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 Additional topic-scoped rules live in `.claude/rules/`:
-- `workflow.md` — branch-vs-direct-push, mandatory liveserve verification (always loaded).
+- `workflow.md` — push direct to master, watch the GH Actions deploy, iterate if it breaks (always loaded).
 - `permalinks.md` — `permalink:` fields are immutable; use `redirect_from:` if a URL must change (loaded when editing any collection or page file, or `_config.yml`).
 - `publications.md` — dual-edit rule for `_pages/publications.md`, color palette, author-name wrapping (loaded when editing `_publications/` or the Publications page).
 - `theme.md` — SCSS / layout overhaul guidance, prefer-custom-files, subagent usage (loaded when editing `_sass/`, `_layouts/`, `_includes/`, `assets/`, or `_config.yml`).
@@ -12,8 +12,7 @@ Project skills in `.claude/skills/`:
 - `/add-publication <paste BibTeX>` — scaffolds a new entry: creates `_publications/YYYY-MM-DD-<slug>.md` and inserts the matching `<li>` block at the top of the right section in `_pages/publications.md`.
 - `/check-links` — audits every `<img>`, `<video>`, `<a href>`, and markdown link against files in `images/` and `files/`. Reports broken refs and orphan files. Run after any rename / move / delete of assets.
 - `/check-permalinks` — audits the current permalink set against HEAD and against the inventory in `.claude/rules/permalinks.md`. Flags any URL that has been removed, changed, or added. Run before pushing structural changes.
-- `/commit-direct [msg]` — commits and pushes straight to master (live deploy). Refuses if the change touches theme/infra paths. Use for pure content edits.
-- `/commit-pr [branch-name]` — commits on a feature branch, pushes, prints the PR-create URL. The PR triggers the GH Actions build job (compile-check, no deploy). Use for theme/infra changes or any time you want a build check before deploy.
+- `/commit-direct [msg]` — commits and pushes straight to master. The GH Actions workflow builds + deploys; if build fails, the previous deploy stays live. Use for any change.
 
 ## What this repo is
 
@@ -21,18 +20,16 @@ Xiao Li's personal academic website (`XiaoLiSean.github.io`), built on the [Acad
 
 ## Local development
 
-Jekyll/Ruby stack (the repo also has a leftover `package.json` for the upstream theme's JS uglify pipeline — it is not used here):
+**Ruby/bundler is NOT installed on this machine.** Visual verification happens on the live site after deploy. The push-and-iterate workflow (see `.claude/rules/workflow.md`) handles this: push to master → GH Actions builds + deploys → check live site → if broken, fix and push again.
+
+For someone who wants a local Jekyll dev server (not the current setup):
 
 ```sh
-bundle install                  # first-time setup; delete Gemfile.lock if it errors
-bundle exec jekyll liveserve    # builds + serves on http://localhost:4000 with auto-reload
+bundle install
+bundle exec jekyll liveserve    # http://localhost:4000 with auto-reload
 ```
 
-`_config.dev.yml` is an override for local dev (sets `url: http://localhost:4000`, disables analytics, expands SCSS). To use it: `bundle exec jekyll serve --config _config.yml,_config.dev.yml`.
-
-Note: Jekyll does **not** auto-reload `_config.yml` — restart the server after changing it.
-
-On Windows the `wdm` gem (in `Gemfile`) is required for file-watching; it is gated by `Gem.win_platform?` so the same Gemfile works on Linux/macOS.
+`_config.dev.yml` is an override for local dev (localhost URL, disabled analytics, expanded SCSS). To use it: `bundle exec jekyll serve --config _config.yml,_config.dev.yml`. Jekyll does **not** auto-reload `_config.yml` — restart the server after changing it. On Windows the `wdm` gem (in `Gemfile`) is needed for file-watching; it's gated by `Gem.win_platform?`.
 
 ## Content model
 
