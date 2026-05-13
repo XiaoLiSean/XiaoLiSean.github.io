@@ -11,12 +11,14 @@
    fragile across browsers.
 */
 
-$dark-bg:        #121212;
-$dark-surface:   #1e1e1e;
-$dark-border:    #333333;
-$dark-text:      #e0e0e0;
-$dark-text-dim:  #a0a0a0;
-$dark-link:      #66c2ff;
+/* Softer dark palette inspired by editor themes like Atom One Dark.
+   Slight cool undertone, easier on the eyes than near-black (#121212). */
+$dark-bg:        #1e2127;  /* page background — main "dark" surface */
+$dark-surface:   #282c33;  /* one step lighter, for code blocks / table headers */
+$dark-border:    #3e4451;  /* visible against the bg without harsh contrast */
+$dark-text:      #e0e0e0;  /* primary text — high contrast on bg */
+$dark-text-dim:  #a0a0a0;  /* secondary text — captions, footer, dim labels */
+$dark-link:      #66c2ff;  /* link color — accessible blue against dark bg */
 
 html[data-theme="dark"] {
   background-color: $dark-bg;
