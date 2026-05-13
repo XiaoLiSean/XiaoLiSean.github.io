@@ -41,6 +41,7 @@
 @import "print";
 
 @import "publication-card";
+@import "project-gallery";
 
 /* Dark mode overrides — must be imported last so attribute-selector rules
    appear after the base rules they need to override. */
