@@ -36,6 +36,18 @@ author_profile: true
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
+    [<span style="color:#7a8288;">preprint</span>]
+    <b>Control Invariant Sets for Neural Network Dynamical Systems and Recursive Feasibility in Model Predictive Control</b><br/>
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>  
+    <br/>
+    [<a href="https://xiaolisean.github.io/publication/2025-12-24-TAC2025" target="_blank" style="color:#5DADE2;">project page</a>
+    <span>&#183;</span>
+    <a href="https://arxiv.org/abs/2505.11546" target="_blank" style="color:#5DADE2;">arXiv</a>]
+  </li>
+  <!-- ---------------------------------------------------- -->
+  <li>
     [<a href="https://acc2025.a2c2.org/" target="_blank" style="color:#494e52;">ACC 2025</a>]
     <b>Lane Keeping Using Lyapunov Function-Based Reference Governor: An Optimization-Free Approach</b><br/>
     <i><b>Xiao Li</b></i>, 
@@ -155,26 +167,6 @@ author_profile: true
 <br/>
 <!-- ============================================================================ -->
 <!-- ============================================================================ -->
-<hr /> <h2>Control Theory for Neural Network Dynamics</h2>
-<!-- ============================================================================ -->
-<ul>
-  <!-- ---------------------------------------------------- -->
-  <li>
-    [<span style="color:#7a8288;">preprint</span>]
-    <b>Control Invariant Sets for Neural Network Dynamical Systems and Recursive Feasibility in Model Predictive Control</b><br/>
-    <i><b>Xiao Li</b></i>, 
-    <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
-    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>  
-    <br/>
-    [<a href="https://xiaolisean.github.io/publication/2025-12-24-TAC2025" target="_blank" style="color:#5DADE2;">project page</a>
-    <span>&#183;</span>
-    <a href="https://arxiv.org/abs/2505.11546" target="_blank" style="color:#5DADE2;">arXiv</a>]
-  </li>
-</ul>
-<!-- ============================================================================ -->
-<br/>
-<!-- ============================================================================ -->
-<!-- ============================================================================ -->
 <hr /> <h2>Robot Localization</h2>
 <!-- ============================================================================ -->
 <ul>
@@ -217,6 +209,28 @@ author_profile: true
 <hr /> <h2>Engine Modeling and Control</h2>
 <!-- ============================================================================ -->
 <ul>
+  <!-- ---------------------------------------------------- -->
+  <li>
+    [<a href="https://www.sae.org/attend/wcx" target="_blank" style="color:#494e52;">SAE WCX 2026</a>]
+    <b>Adaptive Economic Model Predictive Control for Engine Emissions Management with Compensation for Performance Drift</b><br/>
+    <a href="https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>Jiadi Zhang</i></a>, 
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
+    <i>Munechika Tsutsumi</i>, <i>Hayato Nakada</i>
+    <br/>
+    [<a href="https://saemobilus.sae.org/papers/adaptive-economic-model-predictive-control-engine-emissions-management-compensation-performance-drift-2026-01-0287" target="_blank" style="color:#5DADE2;">paper</a>]
+  </li>
+  <!-- ---------------------------------------------------- -->
+  <li>
+    [<a href="https://www.sae.org/attend/wcx" target="_blank" style="color:#494e52;">SAE WCX 2026</a>]
+    <b>Optimal Vehicle Sampling for Fleet-Wide Emissions Monitoring using Submodular Maximization</b><br/>
+    <a href="https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>Jiadi Zhang</i></a>, 
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
+    <i>Munechika Tsutsumi</i>, <i>Hayato Nakada</i>
+    <br/>
+    [<a href="https://saemobilus.sae.org/papers/optimal-vehicle-sampling-fleet-wide-emissions-monitoring-using-submodular-maximization-2026-01-0283" target="_blank" style="color:#5DADE2;">paper</a>]
+  </li>
   <!-- ---------------------------------------------------- -->
   <li>
     [<a href="https://www.sae.org/" target="_blank" style="color:#494e52;">SAE 2025</a>]
