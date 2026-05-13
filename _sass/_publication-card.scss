@@ -32,6 +32,7 @@
 
 .pub-teaser {
   width: 360px;
+  max-height: 360px; /* portrait images cap here; container never exceeds square */
   flex-shrink: 0;
   background-color: #ffffff;
   border: 1px solid #333333; /* thin dark contour line around the box */
@@ -39,18 +40,25 @@
   overflow: hidden;
   position: relative;
 
-  /* Height is determined by the image's natural aspect at the 360px width,
-     so the container hugs the image with no letterboxing. */
+  /* Image hugs the container's width; height auto-derives from aspect ratio
+     up to the container's max-height. Tall portraits hit max-height and use
+     object-fit:contain to preserve aspect (white side bars on those, since
+     the box is wider than the cropped portrait). */
   video,
   img {
     display: block;
     width: 100%;
     height: auto;
+    max-height: 360px;
+    object-fit: contain;
   }
 
   @include breakpoint(max-width $small) {
     width: 100%;
     max-width: 400px;
+    max-height: 400px;
+
+    video, img { max-height: 400px; }
   }
 }
 
