@@ -19,4 +19,6 @@ These apply to the in-progress full theme overhaul of the Minimal Mistakes / Aca
 
 4. **Run the `simplify` skill after a refactor pass** to flag dead SCSS, duplicated rules, or partials left orphaned by the overhaul.
 
-5. **Verify in a browser via `bundle exec jekyll liveserve` before merging.** SCSS compile errors are silent at edit time and a clean build can still produce a broken visual result. Check the Publications page (most layout-sensitive) and test narrow widths (the masthead and author sidebar are responsive).
+5. **Verify visually after deploy.** Ruby/bundler isn't installed locally — push to master, watch the GH Actions deploy, then hard-refresh the live site (Ctrl+Shift+R) or test in incognito. Check the Publications page (most layout-sensitive) and narrow widths (masthead and author sidebar are responsive).
+
+6. **Inline `<script>` tags MUST use only `/* */` block comments — never `//` line comments.** Jekyll's `compress_html` layout (configured in `_config.yml`) strips newlines inside `<script>` tags as well as HTML. Line comments then extend to the end of the (now non-existent) line and swallow everything after them, including `})()` IIFE invocations and any code that follows. Symptom: script appears in source but never runs; event listeners don't get attached; `getEventListeners(elem)` returns `{}`. Cost us a long debugging session — don't repeat. Same rule applies to `//` comments inside any inline JS in `_layouts/`, `_includes/`, or any markdown file that drops a `<script>` block.
