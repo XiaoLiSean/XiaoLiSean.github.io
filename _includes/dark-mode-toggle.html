@@ -15,13 +15,13 @@
   </svg>
 </button>
 <script>
+  /* IMPORTANT: use only block comments inside this script. Jekyll's compress_html
+     layout strips newlines inside <script> tags, which would turn // line comments
+     into a single comment that swallows the rest of the script (including })()). */
   (function() {
     var btn = document.getElementById('theme-toggle');
     if (!btn) return;
     function apply(theme) {
-      // Single source of truth: the data-theme attribute on <html>.
-      // The dark CSS in _sass/_dark-theme.scss (compiled into main.css)
-      // targets html[data-theme="dark"] and overrides the base rules.
       document.documentElement.setAttribute('data-theme', theme);
       try { localStorage.setItem('theme', theme); } catch (e) {}
     }
@@ -29,8 +29,5 @@
       var current = document.documentElement.getAttribute('data-theme') || 'light';
       apply(current === 'dark' ? 'light' : 'dark');
     });
-    // Note: we no longer follow the OS prefers-color-scheme. The default is
-    // computed once per page load from local sunset (see _includes/head.html),
-    // and the toggle persists user overrides via localStorage.
   })();
 </script>

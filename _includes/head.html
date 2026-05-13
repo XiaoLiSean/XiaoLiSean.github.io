@@ -12,14 +12,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
+  /* IMPORTANT: only block comments inside this script. Jekyll's compress_html
+     layout strips newlines inside <script> tags; // line comments would swallow
+     the rest of the script and prevent the IIFE from being invoked. */
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-  // Resolve theme as early as possible. Order of precedence:
-  //   1. User's stored preference from a previous toggle click (localStorage).
-  //   2. Default by local sunset/sunrise: dark after sunset, light otherwise.
-  //      Sunset is approximated for the visitor's local DATE at a fixed ~40°N
-  //      latitude using the standard NOAA solar declination formula. This is
-  //      ±~30 min from true local sunset for visitors at temperate latitudes;
-  //      good enough for "is it dark out?".
   (function() {
     var stored = localStorage.getItem('theme');
     var theme;
@@ -27,14 +23,14 @@
       theme = stored;
     } else {
       var date = new Date();
-      var lat = 40; // hardcoded mid-latitude; covers the dominant US/EU/Asia audience
+      var lat = 40; /* hardcoded mid-latitude; covers the dominant US/EU/Asia audience */
       var dayOfYear = Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 86400000);
       var decl = 23.45 * Math.sin((360 / 365) * (dayOfYear - 81) * Math.PI / 180);
       var cosHA = -Math.tan(lat * Math.PI / 180) * Math.tan(decl * Math.PI / 180);
-      if (cosHA > 1) { theme = 'dark'; }        // polar winter: sun never rises
-      else if (cosHA < -1) { theme = 'light'; } // polar summer: sun never sets
+      if (cosHA > 1) { theme = 'dark'; }
+      else if (cosHA < -1) { theme = 'light'; }
       else {
-        var halfDay = Math.acos(cosHA) * 180 / Math.PI / 15; // hours from noon
+        var halfDay = Math.acos(cosHA) * 180 / Math.PI / 15;
         var sunsetHour = 12 + halfDay;
         var sunriseHour = 12 - halfDay;
         var hr = date.getHours() + date.getMinutes() / 60;
