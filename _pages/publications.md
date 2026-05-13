@@ -12,81 +12,62 @@ author_profile: true
 {% include base_path %}
 <!-- ============================================================================ -->
 <!-- ============================================================================ -->
-<hr /> <h2>Preprints</h2> 
-<!-- ============================================================================ -->
-<ul>
-  <li>
-    <b>Seannet: Semantic Understanding Network for Localization under Object Dynamics</b><br/>
-    <i><b>Xiao Li</b></i>,  
-    <i>Yidong Du</i>, 
-    <a href="https://www.zhenzeng.org/" target="_blank" style="color:#7a8288;"><i>Zhen Zeng</i></a>, 
-    <a href="https://ocj.name/" target="_blank" style="color:#7a8288;"><i>Chad Jenkins</i></a> 
-    <br/>
-    [<a href="https://xiaolisean.github.io/publication/2021-10-05-ArXivSeanNet" target="_blank" style="color:#5DADE2;">project page</a>
-    <span>&#183;</span>
-    <a href="https://github.com/XiaoLiSean/Cognitive-Map/tree/CoRL2021" target="_blank" style="color:#5DADE2;">code</a>
-    <span>&#183;</span>
-    <a href="https://arxiv.org/abs/2110.02276" target="_blank" style="color:#5DADE2;">arXiv</a>]
-  </li>
-  <!-- ---------------------------------------------------- -->
-  <li>
-    <b>Control Invariant Sets for Neural Network Dynamical Systems and Recursive Feasibility in Model Predictive Control</b><br/>
-    <i><b>Xiao Li</b></i>, 
-    <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
-    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>  
-    <br/>
-    [<a href="https://xiaolisean.github.io/publication/2025-12-24-TAC2025" target="_blank" style="color:#5DADE2;">project page</a>
-    <span>&#183;</span>
-    <a href="https://arxiv.org/abs/2505.11546" target="_blank" style="color:#5DADE2;">arXiv</a>]
-  </li>
-</ul>  
-<!-- ============================================================================ -->
-<br/> 
-<!-- ============================================================================ -->
-<!-- ============================================================================ -->
-<hr /> <h2>Conferences</h2> 
+<hr /> <h2>Safe Autonomous Driving</h2>
 <!-- ============================================================================ -->
 <ul>
   <!-- ---------------------------------------------------- -->
   <li>
-    [<a href="https://cdc2025.ieeecss.org/" target="_blank" style="color:#494e52;">CDC 2025</a>]
-    <b>Safe Adaptive Cruise Control Under Perception Uncertainty: A Deep Ensemble and Conformal Tube Model Predictive Control Approach</b><br/>
+    [<a href="https://www.ieeecss.org/publication/transactions-control-systems-technology" target="_blank" style="color:#494e52;">TCST 2026</a>]
+    <b>Safe Lane-Keeping With Control Barrier Functions: From Theory to Practical Implementation</b><br/>
+    <i>Illés Vörös</i>, 
+    <i>Chenhuan Jiang</i>, 
+    <i>Hanyu Gan</i>, 
+    <i>Dénes Takács</i>, 
     <i><b>Xiao Li</b></i>, 
-    <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
-    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>  
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
+    <a href="https://scholar.google.com/citations?user=t5KAs_YAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John M. Talbot</i></a>, 
+    <a href="https://scholar.google.com/citations?user=3GjYspgAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>James Dallas</i></a>, 
+    <a href="https://scholar.google.com/citations?user=BmXLo58AAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John Subosits</i></a>, 
+    <i>Gábor Orosz</i>
     <br/>
-    [<a href="https://xiaolisean.github.io/publication/2025-12-16-CDC2025" target="_blank" style="color:#5DADE2;">project page</a>
+    [<a href="https://xiaolisean.github.io/publication/2026-02-25-TCST2026" target="_blank" style="color:#5DADE2;">project page</a>
     <span>&#183;</span>
-    <a href="https://ieeexplore.ieee.org/abstract/document/11312370" target="_blank" style="color:#5DADE2;">Paper</a>]
-  </li>  
-  <!-- ---------------------------------------------------- -->
-  <li>
-    [<a href="https://cdc2024.ieeecss.org/" target="_blank" style="color:#494e52;">CDC 2024</a>]
-    <b>Autonomous Driving With Perception Uncertainties: Deep-Ensemble Based Adaptive Cruise Control</b><br/>
-    <i><b>Xiao Li</b></i>, 
-    <a href="https://scholar.google.com/citations?hl=en&user=UWnwlu4AAAAJ" target="_blank" style="color:#7a8288;"><i>H Eric Tseng</i></a>, 
-    <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
-    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>  
-    <br/>
-    [<a href="https://xiaolisean.github.io/publication/2024-12-16-CDC2024" target="_blank" style="color:#5DADE2;">project page</a>
-    <span>&#183;</span>
-    <a href="https://ieeexplore.ieee.org/document/10886150" target="_blank" style="color:#5DADE2;">Paper</a>]
+    <a href="https://doi.org/10.1109/tcst.2026.3657870" target="_blank" style="color:#5DADE2;">paper</a>]
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
-    [<a href="https://acc2024.a2c2.org/" target="_blank" style="color:#494e52;">ACC 2024</a>]
-    <b>Interaction-Aware Decision-Making for Autonomous Vehicles in Forced Merging Scenario Leveraging Social Psychology Factors</b><br/>
-    <i><b>Xiao Li</b></i>,  
-    <a href="https://scholar.google.com/citations?user=x9QcHDgAAAAJ&hl=en&authuser=1" target="_blank" style="color:#7a8288;"><i>Kaiwen Liu</i></a>, 
-    <a href="https://scholar.google.com/citations?hl=en&user=UWnwlu4AAAAJ" target="_blank" style="color:#7a8288;"><i>H Eric Tseng</i></a>, 
+    [<a href="https://acc2025.a2c2.org/" target="_blank" style="color:#494e52;">ACC 2025</a>]
+    <b>Lane Keeping Using Lyapunov Function-Based Reference Governor: An Optimization-Free Approach</b><br/>
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
     <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
-    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>
+    <i>Illés Vörös</i>, 
+    <i>Gábor Orosz</i>, 
+    <i>Makoto Suminaka</i>, 
+    <a href="https://scholar.google.com/citations?user=t5KAs_YAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John M. Talbot</i></a>, 
+    <a href="https://scholar.google.com/citations?user=3GjYspgAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>James Dallas</i></a>, 
+    <a href="https://scholar.google.com/citations?user=BmXLo58AAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John Subosits</i></a>
     <br/>
-    [<a href="https://xiaolisean.github.io/publication/2023-09-25-ACC2024" target="_blank" style="color:#5DADE2;">project page</a>
+    [<a href="https://xiaolisean.github.io/publication/2025-07-08-ACC2025" target="_blank" style="color:#5DADE2;">project page</a>
     <span>&#183;</span>
-    <a href="https://ieeexplore.ieee.org/abstract/document/10644597" target="_blank" style="color:#5DADE2;">paper</a>
+    <a href="https://doi.org/10.23919/acc63710.2025.11107878" target="_blank" style="color:#5DADE2;">paper</a>]
+  </li>
+  <!-- ---------------------------------------------------- -->
+  <li>
+    [<a href="https://2025.ieee-iv.org/" target="_blank" style="color:#494e52;">IV 2025</a>]
+    <b>Lane-Keeping Guardian with Safety Filter: Experimental Validation</b><br/>
+    <i>Illés Vörös</i>, 
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
+    <a href="https://scholar.google.com/citations?user=t5KAs_YAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John M. Talbot</i></a>, 
+    <a href="https://scholar.google.com/citations?user=3GjYspgAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>James Dallas</i></a>, 
+    <i>Makoto Suminaka</i>, 
+    <a href="https://scholar.google.com/citations?user=BmXLo58AAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>John Subosits</i></a>, 
+    <i>Gábor Orosz</i>
+    <br/>
+    [<a href="https://xiaolisean.github.io/publication/2025-06-22-IV2025" target="_blank" style="color:#5DADE2;">project page</a>
     <span>&#183;</span>
-    <a href="https://github.com/XiaoLiSean/SocialPsyFactorInMerging" target="_blank" style="color:#5DADE2;">code</a>]
+    <a href="https://doi.org/10.1109/iv64158.2025.11097430" target="_blank" style="color:#5DADE2;">paper</a>]
   </li>
   <!-- ---------------------------------------------------- -->
   <li>
@@ -106,48 +87,40 @@ author_profile: true
     <span>&#183;</span>
     <a href="https://arxiv.org/abs/2312.06810" target="_blank" style="color:#5DADE2;">full report</a>]
   </li>
-  <!-- ---------------------------------------------------- -->  
-  <li>
-    [<a href="https://acc2024.a2c2.org/" target="_blank" style="color:#494e52;">ACC 2024</a>]
-    <b>Model Predictive Control of Diesel Engine Emissions Based on Neural Network Modeling</b><br/>    
-    <a href="https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>Jiadi Zhang</i></a>, 
-    <i><b>Xiao Li</b></i>,  
-    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
-    <i>Munechika Tsutsumi, Hayato Nakada</i>
-    <br/>
-    [<a href="https://ieeexplore.ieee.org/abstract/document/10644759" target="_blank" style="color:#5DADE2;">paper</a>]
-  </li>
-  <!-- ---------------------------------------------------- -->
-  <li>
-    [<a href="https://ifac2023.org/" target="_blank" style="color:#494e52;">IFAC 2023</a>]
-    <b>Modeling and Control of Diesel Engine Emissions using Multi-layer Neural Networks and Economic Model Predictive Control</b><br/>    
-    <a href="https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>Jiadi Zhang</i></a>, 
-    <i><b>Xiao Li</b></i>,  
-    <a href="https://scholar.google.com/citations?user=eoDt5CkAAAAJ&hl=en" target="_blank"  style="color:#7a8288;"><i>Mohammad Reza Amini</i></a>, 
-    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
-    <i>Munechika Tsutsumi</i>
-    <br/>
-    [<a href="https://www.sciencedirect.com/science/article/pii/S2405896323011011" target="_blank" style="color:#5DADE2;">paper</a>]
-  </li>
-  <!-- ---------------------------------------------------- -->
-  <li>
-    [<a href="https://www.sae.org/" target="_blank" style="color:#494e52;">SAE 2025</a>]
-    <b>Neural Network Based Modeling and Model Predictive Control for Reduction in Diesel Emissions</b><br/>    
-    <a href="https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>Jiadi Zhang</i></a>, 
-    <i><b>Xiao Li</b></i>,  
-    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>,  
-    <i>Munechika Tsutsumi, Hayato Nakada</i>
-    <br/>
-    [<a href="https://www.sae.org/publications/technical-papers/content/2025-01-8369/" target="_blank" style="color:#5DADE2;">paper</a>]
-  </li>
 </ul>
 <!-- ============================================================================ -->
-<br/> 
+<br/>
 <!-- ============================================================================ -->
 <!-- ============================================================================ -->
-<hr /> <h2>Journals</h2> 
+<hr /> <h2>Decision-Making and Perception Uncertainty in Driving</h2>
 <!-- ============================================================================ -->
 <ul>
+  <!-- ---------------------------------------------------- -->
+  <li>
+    [<a href="https://cdc2025.ieeecss.org/" target="_blank" style="color:#494e52;">CDC 2025</a>]
+    <b>Safe Adaptive Cruise Control Under Perception Uncertainty: A Deep Ensemble and Conformal Tube Model Predictive Control Approach</b><br/>
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>  
+    <br/>
+    [<a href="https://xiaolisean.github.io/publication/2025-12-16-CDC2025" target="_blank" style="color:#5DADE2;">project page</a>
+    <span>&#183;</span>
+    <a href="https://ieeexplore.ieee.org/abstract/document/11312370" target="_blank" style="color:#5DADE2;">paper</a>]
+  </li>
+  <!-- ---------------------------------------------------- -->
+  <li>
+    [<a href="https://cdc2024.ieeecss.org/" target="_blank" style="color:#494e52;">CDC 2024</a>]
+    <b>Autonomous Driving With Perception Uncertainties: Deep-Ensemble Based Adaptive Cruise Control</b><br/>
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://scholar.google.com/citations?hl=en&user=UWnwlu4AAAAJ" target="_blank" style="color:#7a8288;"><i>H Eric Tseng</i></a>, 
+    <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>  
+    <br/>
+    [<a href="https://xiaolisean.github.io/publication/2024-12-16-CDC2024" target="_blank" style="color:#5DADE2;">project page</a>
+    <span>&#183;</span>
+    <a href="https://ieeexplore.ieee.org/document/10886150" target="_blank" style="color:#5DADE2;">paper</a>]
+  </li>
+  <!-- ---------------------------------------------------- -->
   <li>
     [<a href="https://www.ieeecss.org/publication/transactions-control-systems-technology" target="_blank" style="color:#494e52;">TCST</a>]
     <b>Decision-Making for Autonomous Vehicles with Interaction-Aware Behavioral Prediction and Social-Attention Neural Network</b><br/>
@@ -161,6 +134,50 @@ author_profile: true
     <span>&#183;</span>
     <a href="https://ieeexplore.ieee.org/abstract/document/10704787" target="_blank" style="color:#5DADE2;">paper</a>]
   </li>
+  <!-- ---------------------------------------------------- -->
+  <li>
+    [<a href="https://acc2024.a2c2.org/" target="_blank" style="color:#494e52;">ACC 2024</a>]
+    <b>Interaction-Aware Decision-Making for Autonomous Vehicles in Forced Merging Scenario Leveraging Social Psychology Factors</b><br/>
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://scholar.google.com/citations?user=x9QcHDgAAAAJ&hl=en&authuser=1" target="_blank" style="color:#7a8288;"><i>Kaiwen Liu</i></a>, 
+    <a href="https://scholar.google.com/citations?hl=en&user=UWnwlu4AAAAJ" target="_blank" style="color:#7a8288;"><i>H Eric Tseng</i></a>, 
+    <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank" style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>
+    <br/>
+    [<a href="https://xiaolisean.github.io/publication/2023-09-25-ACC2024" target="_blank" style="color:#5DADE2;">project page</a>
+    <span>&#183;</span>
+    <a href="https://ieeexplore.ieee.org/abstract/document/10644597" target="_blank" style="color:#5DADE2;">paper</a>
+    <span>&#183;</span>
+    <a href="https://github.com/XiaoLiSean/SocialPsyFactorInMerging" target="_blank" style="color:#5DADE2;">code</a>]
+  </li>
+</ul>
+<!-- ============================================================================ -->
+<br/>
+<!-- ============================================================================ -->
+<!-- ============================================================================ -->
+<hr /> <h2>Control Theory for Neural Network Dynamics</h2>
+<!-- ============================================================================ -->
+<ul>
+  <!-- ---------------------------------------------------- -->
+  <li>
+    [<span style="color:#7a8288;">preprint</span>]
+    <b>Control Invariant Sets for Neural Network Dynamical Systems and Recursive Feasibility in Model Predictive Control</b><br/>
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://vodca.engin.umich.edu/" target="_blank" style="color:#7a8288;"><i>Anouck Girard</i></a>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>  
+    <br/>
+    [<a href="https://xiaolisean.github.io/publication/2025-12-24-TAC2025" target="_blank" style="color:#5DADE2;">project page</a>
+    <span>&#183;</span>
+    <a href="https://arxiv.org/abs/2505.11546" target="_blank" style="color:#5DADE2;">arXiv</a>]
+  </li>
+</ul>
+<!-- ============================================================================ -->
+<br/>
+<!-- ============================================================================ -->
+<!-- ============================================================================ -->
+<hr /> <h2>Robot Localization</h2>
+<!-- ============================================================================ -->
+<ul>
   <!-- ---------------------------------------------------- -->
   <li>
     [<a href="https://onlinelibrary.wiley.com/journal/25780727" target="_blank" style="color:#494e52;">ACA</a>]
@@ -177,8 +194,65 @@ author_profile: true
     <span>&#183;</span>
     <a href="https://github.com/XiaoLiSean/SetThmSLAM" target="_blank" style="color:#5DADE2;">code</a>]
   </li>
+  <!-- ---------------------------------------------------- -->
+  <li>
+    [<span style="color:#7a8288;">preprint</span>]
+    <b>Seannet: Semantic Understanding Network for Localization under Object Dynamics</b><br/>
+    <i><b>Xiao Li</b></i>, 
+    <i>Yidong Du</i>, 
+    <a href="https://www.zhenzeng.org/" target="_blank" style="color:#7a8288;"><i>Zhen Zeng</i></a>, 
+    <a href="https://ocj.name/" target="_blank" style="color:#7a8288;"><i>Chad Jenkins</i></a>
+    <br/>
+    [<a href="https://xiaolisean.github.io/publication/2021-10-05-ArXivSeanNet" target="_blank" style="color:#5DADE2;">project page</a>
+    <span>&#183;</span>
+    <a href="https://github.com/XiaoLiSean/Cognitive-Map/tree/CoRL2021" target="_blank" style="color:#5DADE2;">code</a>
+    <span>&#183;</span>
+    <a href="https://arxiv.org/abs/2110.02276" target="_blank" style="color:#5DADE2;">arXiv</a>]
+  </li>
 </ul>
 <!-- ============================================================================ -->
-<br/> 
+<br/>
+<!-- ============================================================================ -->
+<!-- ============================================================================ -->
+<hr /> <h2>Engine Modeling and Control</h2>
+<!-- ============================================================================ -->
+<ul>
+  <!-- ---------------------------------------------------- -->
+  <li>
+    [<a href="https://www.sae.org/" target="_blank" style="color:#494e52;">SAE 2025</a>]
+    <b>Neural Network Based Modeling and Model Predictive Control for Reduction in Diesel Emissions</b><br/>
+    <a href="https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>Jiadi Zhang</i></a>, 
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
+    <i>Munechika Tsutsumi</i>, <i>Hayato Nakada</i>
+    <br/>
+    [<a href="https://www.sae.org/publications/technical-papers/content/2025-01-8369/" target="_blank" style="color:#5DADE2;">paper</a>]
+  </li>
+  <!-- ---------------------------------------------------- -->
+  <li>
+    [<a href="https://acc2024.a2c2.org/" target="_blank" style="color:#494e52;">ACC 2024</a>]
+    <b>Model Predictive Control of Diesel Engine Emissions Based on Neural Network Modeling</b><br/>
+    <a href="https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>Jiadi Zhang</i></a>, 
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
+    <i>Munechika Tsutsumi</i>, <i>Hayato Nakada</i>
+    <br/>
+    [<a href="https://ieeexplore.ieee.org/abstract/document/10644759" target="_blank" style="color:#5DADE2;">paper</a>]
+  </li>
+  <!-- ---------------------------------------------------- -->
+  <li>
+    [<a href="https://ifac2023.org/" target="_blank" style="color:#494e52;">IFAC 2023</a>]
+    <b>Modeling and Control of Diesel Engine Emissions using Multi-layer Neural Networks and Economic Model Predictive Control</b><br/>
+    <a href="https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en" target="_blank" style="color:#7a8288;"><i>Jiadi Zhang</i></a>, 
+    <i><b>Xiao Li</b></i>, 
+    <a href="https://scholar.google.com/citations?user=eoDt5CkAAAAJ&hl=en" target="_blank"  style="color:#7a8288;"><i>Mohammad Reza Amini</i></a>, 
+    <a href="https://sites.google.com/a/umich.edu/kolmanovsky/" target="_blank"  style="color:#7a8288;"><i>Ilya Kolmanovsky</i></a>, 
+    <i>Munechika Tsutsumi</i>
+    <br/>
+    [<a href="https://www.sciencedirect.com/science/article/pii/S2405896323011011" target="_blank" style="color:#5DADE2;">paper</a>]
+  </li>
+</ul>
+<!-- ============================================================================ -->
+<br/>
 <!-- ============================================================================ -->
 <!-- ============================================================================ -->
