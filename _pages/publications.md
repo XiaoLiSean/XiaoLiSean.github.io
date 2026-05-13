@@ -172,7 +172,7 @@ author_profile: true
     <div class="pub-card">
       <div class="pub-teaser"><img src="/images/teaser_images/tcst_2024.gif" alt="TCST 2024 teaser"></div>
       <div class="pub-content">
-        [<a href="https://www.ieeecss.org/publication/transactions-control-systems-technology" target="_blank" style="color:#494e52;">TCST</a>]
+        [<a href="https://www.ieeecss.org/publication/transactions-control-systems-technology" target="_blank" style="color:#494e52;">TCST 2024</a>]
         <b>Decision-Making for Autonomous Vehicles with Interaction-Aware Behavioral Prediction and Social-Attention Neural Network</b><br/>
         <i><b>Xiao Li</b></i>, 
         <a href="https://scholar.google.com/citations?user=x9QcHDgAAAAJ&hl=en&authuser=1" target="_blank" style="color:#7a8288;"><i>Kaiwen Liu</i></a>, 
