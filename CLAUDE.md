@@ -12,6 +12,7 @@ Project skills in `.claude/skills/`:
 - `/add-publication <paste BibTeX>` — scaffolds a new entry: creates `_publications/YYYY-MM-DD-<slug>.md` and inserts the matching `<li>` block at the top of the right section in `_pages/publications.md`.
 - `/check-links` — audits every `<img>`, `<video>`, `<a href>`, and markdown link against files in `images/` and `files/`. Reports broken refs and orphan files. Run after any rename / move / delete of assets.
 - `/check-permalinks` — audits the current permalink set against HEAD and against the inventory in `.claude/rules/permalinks.md`. Flags any URL that has been removed, changed, or added. Run before pushing structural changes.
+- `/scholar-update` — syncs `_publications/` and `_pages/publications.md` against your OpenAlex record (looked up by ORCID from `_config.yml`). Detects new papers, title changes, venue transitions (preprint → conference → journal), DOI additions, coauthor changes. Prints a structured diff; applies only the items you approve. Uses OpenAlex (free, JSON, no key) instead of Google Scholar (no API, blocks scraping).
 - `/commit-direct [msg]` — commits and pushes straight to master. The GH Actions workflow builds + deploys; if build fails, the previous deploy stays live. Use for any change.
 
 ## What this repo is
