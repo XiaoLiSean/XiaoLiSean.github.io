@@ -40,6 +40,8 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+@import "publication-card";
+
 /* Dark mode overrides — must be imported last so attribute-selector rules
    appear after the base rules they need to override. */
 @import "dark-theme";
