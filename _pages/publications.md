@@ -105,7 +105,7 @@ author_profile: true
   <!-- ---------------------------------------------------- -->
   <li class="pub-item">
     <div class="pub-card">
-      <div class="pub-teaser"><video src="/images/l4dc2024/vehicle.mp4" autoplay loop muted playsinline></video></div>
+      <div class="pub-teaser"><video src="/images/teaser_images/l4dc_2024.mp4" autoplay loop muted playsinline></video></div>
       <div class="pub-content">
         [<a href="https://l4dc.web.ox.ac.uk/home" target="_blank" style="color:#494e52;">L4DC 2024</a>]
         <b>System-level Safety Guard: Safe Tracking Control through Uncertain Neural Network Dynamics Models</b><br/>
