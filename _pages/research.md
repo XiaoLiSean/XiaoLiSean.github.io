@@ -67,7 +67,7 @@ author_profile: true
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/OptiTrack Localization.gif" style="width:100%">
+    <video src="http://XiaoLiSean.github.io/images/projects/OptiTrack Localization.mp4" style="width:100%" autoplay loop muted playsinline></video>
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       OptiTrack Localization
     </div>
@@ -80,14 +80,14 @@ author_profile: true
   padding = (980 - image_width)/image_width/2 *100% -->
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/trajectory tracking.gif" style="width:100%">
+    <img src="http://XiaoLiSean.github.io/images/projects/trajectory tracking.gif" style="width:100%">
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Trajectory Tracking
     </div>
   </div>
 
   <div class="w3-display-container mySlides">
-    <img src="http://XiaoLiSean.github.io/images/Autonomous Parking.gif" style="width:100%">
+    <video src="http://XiaoLiSean.github.io/images/projects/Autonomous Parking.mp4" style="width:100%" autoplay loop muted playsinline></video>
     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
       Autonomous Parking
     </div>

@@ -13,9 +13,32 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  // Resolve theme as early as possible so the link media attributes can apply without flash.
+  (function() {
+    var stored = localStorage.getItem('theme'); // 'light' | 'dark' | null (auto)
+    if (stored === 'dark' || stored === 'light') {
+      document.documentElement.setAttribute('data-theme', stored);
+    } else {
+      document.documentElement.setAttribute('data-theme',
+        window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+  })();
 </script>
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+<!-- Light theme: always loaded as the default. -->
+<link rel="stylesheet" id="theme-light" href="{{ base_path }}/assets/css/main.css">
+<!-- Dark theme: applies via prefers-color-scheme by default; JS overrides the media attribute on toggle. -->
+<link rel="stylesheet" id="theme-dark" href="{{ base_path }}/assets/css/main-dark.css" media="(prefers-color-scheme: dark)">
+<script>
+  // If the user has an explicit override stored, force the dark sheet on/off accordingly.
+  // Runs immediately after the links are parsed; no DOM-ready wait.
+  (function() {
+    var stored = localStorage.getItem('theme');
+    if (stored !== 'dark' && stored !== 'light') return;
+    var dark = document.getElementById('theme-dark');
+    if (!dark) return;
+    dark.media = (stored === 'dark') ? 'all' : 'not all';
+  })();
+</script>
 
 <meta http-equiv="cleartype" content="on">

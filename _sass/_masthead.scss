@@ -16,6 +16,7 @@
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
+    position: relative;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -29,7 +30,51 @@
       text-decoration: none;
     }
   }
+
+  &__theme-toggle {
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translateY(-50%);
+    z-index: 11;
+  }
 }
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid $border-color;
+  border-radius: 50%;
+  color: $masthead-link-color;
+  cursor: pointer;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    color: $masthead-link-color-hover;
+    border-color: $masthead-link-color-hover;
+  }
+
+  &:focus {
+    outline: 2px solid $link-color;
+    outline-offset: 2px;
+  }
+
+  &__icon {
+    display: none;
+  }
+}
+
+/* Show the moon icon in light mode (clicking switches TO dark) */
+html[data-theme="light"] .theme-toggle__icon--moon { display: inline; }
+/* Show the sun icon in dark mode (clicking switches BACK TO light) */
+html[data-theme="dark"]  .theme-toggle__icon--sun  { display: inline; }
+/* Fallback when no data-theme attribute is set yet (pre-JS): show moon. */
+html:not([data-theme]) .theme-toggle__icon--moon { display: inline; }
 
 .masthead__menu {
 

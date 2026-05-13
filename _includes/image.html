@@ -1,0 +1,14 @@
+{% comment %}
+  Reusable image container.
+
+  Required:
+    src   — path under the site root, e.g. "/images/projects/foo.png"
+
+  Optional:
+    style — full inline style override (default "width:100%")
+    alt   — alt text for accessibility (default "")
+
+  Usage:
+    {% include image.html src="/images/projects/rccar.png" alt="RC car platform" %}
+    {% include image.html src="/images/projects/path_planning.png" style="width:80%" %}
+{% endcomment %}{% include base_path %}<img src="{{ base_path }}{{ include.src }}" style="{{ include.style | default: 'width:100%' }}" alt="{{ include.alt | default: '' }}" loading="lazy">

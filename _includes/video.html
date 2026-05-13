@@ -1,0 +1,14 @@
+{% comment %}
+  Reusable video container.
+
+  Required:
+    src   — path under the site root, e.g. "/images/projects/foo.mp4"
+
+  Optional:
+    style — full inline style override (default "width:100%")
+    alt   — descriptive label (rendered as aria-label for accessibility)
+
+  Usage:
+    {% include video.html src="/images/projects/Autonomous Parking.mp4" %}
+    {% include video.html src="/images/l4dc2024/vehicle.mp4" style="width:80%" %}
+{% endcomment %}{% include base_path %}<video src="{{ base_path }}{{ include.src }}" style="{{ include.style | default: 'width:100%' }}" {% if include.alt %}aria-label="{{ include.alt }}"{% endif %} autoplay loop muted playsinline preload="metadata"></video>
