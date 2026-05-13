@@ -31,8 +31,8 @@
 }
 
 .pub-teaser {
-  width: 280px;
-  height: 210px;
+  width: 360px;
+  height: 240px;
   flex-shrink: 0;
   background-color: #d8dadd; /* gray fallback when no teaser image is set */
   background-size: cover;
@@ -42,20 +42,22 @@
   overflow: hidden;
   position: relative;
 
-  /* When a <video> is used as the teaser, fill the box. */
+  /* `contain` so the full image is always visible regardless of its aspect ratio.
+     Images narrower than the box show side bars; taller-than-the-box show top/bottom bars.
+     For autoplay video teasers, same: full frame visible. */
   video,
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
   }
 
   @include breakpoint(max-width $small) {
     width: 100%;
-    max-width: 320px;
+    max-width: 400px;
     height: auto;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 3 / 2;
   }
 }
 
