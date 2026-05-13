@@ -32,33 +32,25 @@
 
 .pub-teaser {
   width: 360px;
-  height: 240px;
   flex-shrink: 0;
   background-color: #ffffff;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   border: 1px solid #333333; /* thin dark contour line around the box */
   border-radius: 4px;
   overflow: hidden;
   position: relative;
 
-  /* `contain` so the full image is always visible regardless of its aspect ratio.
-     Images narrower than the box show side bars; taller-than-the-box show top/bottom bars.
-     For autoplay video teasers, same: full frame visible. */
+  /* Height is determined by the image's natural aspect at the 360px width,
+     so the container hugs the image with no letterboxing. */
   video,
   img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
     display: block;
+    width: 100%;
+    height: auto;
   }
 
   @include breakpoint(max-width $small) {
     width: 100%;
     max-width: 400px;
-    height: auto;
-    aspect-ratio: 3 / 2;
   }
 }
 
