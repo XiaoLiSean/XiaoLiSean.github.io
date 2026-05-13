@@ -1,0 +1,95 @@
+---
+---
+
+/*
+ *    Dark theme override stylesheet for XiaoLiSean.github.io.
+ *    Sets dark color variables BEFORE importing the rest of the theme,
+ *    so SCSS !default flags in _sass/_variables.scss yield to these.
+ *    Loaded alongside main.css; toggled via the "media" attribute trick
+ *    in _includes/head.html and the dark-mode toggle JS.
+ */
+
+/* --- Dark palette overrides (must come BEFORE @import "variables") --- */
+$body-color                 : #121212;
+$background-color           : #121212;
+$code-background-color      : #1e1e1e;
+$code-background-color-dark : #2a2a2a;
+$text-color                 : #e0e0e0;
+$border-color               : #333333;
+
+/* Slightly brighter link color for accessible contrast against dark background */
+$link-color                 : #66c2ff;
+$link-color-hover           : mix(#fff, $link-color, 20%);
+$link-color-visited         : mix(#fff, $link-color, 35%);
+
+/* Masthead links sit on the masthead background; keep them readable */
+$masthead-link-color        : #e0e0e0;
+$masthead-link-color-hover  : #ffffff;
+
+/* Re-derive the gray ramp so any partial referencing $light-gray etc.
+   gets dark-appropriate values rather than light ones. */
+$gray                       : #9aa1a8;
+$dark-gray                  : mix(#fff, $gray, 40%);
+$darker-gray                : mix(#fff, $gray, 60%);
+$light-gray                 : mix(#000, $gray, 40%);
+$lighter-gray               : mix(#000, $gray, 60%);
+
+/* --- Now import the rest of the theme exactly like main.scss does --- */
+@import "vendor/breakpoint/breakpoint";
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
+
+@import "forms";
+
+@import "page";
+@import "archive";
+@import "sidebar";
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
+
+/* --- Dark-mode tweaks that can't be expressed via the variable system alone --- */
+
+/* Masthead background: the existing rule uses $background-color so it inherits.
+   But the masthead has a bottom border that's hard to see against dark; soften it. */
+.masthead {
+  border-bottom-color: $border-color;
+}
+
+/* Author profile sidebar avatar: a light ring around it reads better on dark */
+.author__avatar img {
+  box-shadow: 0 0 0 1px $border-color;
+}
+
+/* Code blocks: ensure inline code is visible */
+code {
+  background-color: $code-background-color;
+  color: $text-color;
+}
+
+/* Tables: rows alternate against the dark background */
+table {
+  thead {
+    background-color: $code-background-color-dark;
+  }
+  tbody tr:nth-child(even) {
+    background-color: $code-background-color;
+  }
+}

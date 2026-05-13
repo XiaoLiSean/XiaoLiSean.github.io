@@ -4,11 +4,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Additional topic-scoped rules live in `.claude/rules/`:
 - `workflow.md` — branch-vs-direct-push, mandatory liveserve verification (always loaded).
+- `permalinks.md` — `permalink:` fields are immutable; use `redirect_from:` if a URL must change (loaded when editing any collection or page file, or `_config.yml`).
 - `publications.md` — dual-edit rule for `_pages/publications.md`, color palette, author-name wrapping (loaded when editing `_publications/` or the Publications page).
 - `theme.md` — SCSS / layout overhaul guidance, prefer-custom-files, subagent usage (loaded when editing `_sass/`, `_layouts/`, `_includes/`, `assets/`, or `_config.yml`).
 
 Project skills in `.claude/skills/`:
 - `/add-publication <paste BibTeX>` — scaffolds a new entry: creates `_publications/YYYY-MM-DD-<slug>.md` and inserts the matching `<li>` block at the top of the right section in `_pages/publications.md`.
+- `/check-links` — audits every `<img>`, `<video>`, `<a href>`, and markdown link against files in `images/` and `files/`. Reports broken refs and orphan files. Run after any rename / move / delete of assets.
+- `/check-permalinks` — audits the current permalink set against HEAD and against the inventory in `.claude/rules/permalinks.md`. Flags any URL that has been removed, changed, or added. Run before pushing structural changes.
+- `/commit-direct [msg]` — commits and pushes straight to master (live deploy). Refuses if the change touches theme/infra paths. Use for pure content edits.
+- `/commit-pr [branch-name]` — commits on a feature branch, pushes, prints the PR-create URL. The PR triggers the GH Actions build job (compile-check, no deploy). Use for theme/infra changes or any time you want a build check before deploy.
 
 ## What this repo is
 
