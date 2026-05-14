@@ -54,6 +54,8 @@ The user has provided URLs for many regular collaborators in this session — ca
 - Tianhao Wei → `https://scholar.google.com/citations?user=V22j1C0AAAAJ&hl=en`
 - Changliu Liu → `https://icontrol.ri.cmu.edu/`
 - Jiadi Zhang → `https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en`
+- Hong Zhu → `https://sites.gc.sjtu.edu.cn/hong-zhu/`
+- Ju Jaehyung → `https://scholar.google.com/citations?user=HwQqch0AAAAJ&hl=en`
 
 If a coauthor name doesn't match any of the above and no URL exists in the repo, render them plain (`<i>Name</i>`) and ask the user only at report time whether to add a URL.
 

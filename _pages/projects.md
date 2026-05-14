@@ -142,7 +142,7 @@ author_profile: true
     <p>
       <i>VM 350 Design &amp; Manufacturing II</i>,
       <i>Advisor:</i>
-      <a href="https://sites.ji.sjtu.edu.cn/jaehyungju/" target="_blank" style="color:#5DADE2;"><i>Prof. Ju Jaehyung</i></a>
+      <a href="https://scholar.google.com/citations?user=HwQqch0AAAAJ&hl=en" target="_blank" style="color:#5DADE2;"><i>Prof. Ju Jaehyung</i></a>
     </p>
     <p>Laminated materials are used to fabricate compliant origami wheels, enabling flexible control of wheel diameter and improved adaptability to terrain variations.</p>
 
