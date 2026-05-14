@@ -28,7 +28,34 @@ Things the user must provide that BibTeX does **not** contain:
 
 - **Venue homepage URL** for Conference / Journal entries (e.g. `https://cdc2024.ieeecss.org/`, `https://www.ieeecss.org/publication/transactions-control-systems-technology`). Ask for it.
 - **Venue short label** for the `[VENUE YEAR]` tag (e.g. `CDC 2024`, `ACC 2024`, `L4DC 2024`, `TCST`, `ACA`). Confirm with the user.
-- **Coauthor profile URLs** (Google Scholar / lab page) — ask once whether they want to add links; coauthors without a URL render plain.
+- **Coauthor profile URLs** (Google Scholar / lab page) — see Step 1.5 below for the auto-reuse pattern; only ask the user for URLs that aren't already in the repo.
+
+## Step 1.5 — Cross-check author list and reuse known coauthor URLs
+
+Before scaffolding, do two checks the previous version of this skill missed:
+
+**Author count cross-check.** If the BibTeX (or OpenAlex source) has an arXiv ID (or DOI), `WebFetch` the arXiv abstract page and compare the author list. OpenAlex and BibTeX both occasionally truncate authors. The TAC2025 entry was originally created with 3 authors when the actual paper has 5 — caught manually after the fact. If counts disagree, **ask the user** which list is correct.
+
+**Reuse known coauthor URLs.** For each coauthor (other than Xiao), grep the repo for the bare name:
+```
+Grep tool: pattern "<First> <Last>", glob "_publications/**/*.md"
+```
+If a profile URL already exists for that name anywhere in `_publications/*.md` or `_pages/publications.md`, **reuse that exact URL** (matching `style="color:#7a8288;"` per [[publications]]). Don't re-prompt the user for URLs the repo already has.
+
+The user has provided URLs for many regular collaborators in this session — capture them automatically when seen rather than asking each time:
+- Anouck Girard → `https://vodca.engin.umich.edu/`
+- Ilya Kolmanovsky → `https://sites.google.com/a/umich.edu/kolmanovsky/`
+- John Talbot → `https://scholar.google.com/citations?user=t5KAs_YAAAAJ&hl=en` (note: "John Talbot", not "John M. Talbot")
+- James Dallas → `https://scholar.google.com/citations?user=3GjYspgAAAAJ&hl=en`
+- John Subosits → `https://scholar.google.com/citations?user=BmXLo58AAAAJ&hl=en`
+- Gábor Orosz → `https://websites.umich.edu/~orosz/`
+- Illés Vörös → `https://scholar.google.com/citations?user=ozjTXrYAAAAJ&hl=hu`
+- H Eric Tseng → `https://scholar.google.com/citations?hl=en&user=UWnwlu4AAAAJ`
+- Tianhao Wei → `https://scholar.google.com/citations?user=V22j1C0AAAAJ&hl=en`
+- Changliu Liu → `https://icontrol.ri.cmu.edu/`
+- Jiadi Zhang → `https://scholar.google.com/citations?user=fdXH8ZoAAAAJ&hl=en`
+
+If a coauthor name doesn't match any of the above and no URL exists in the repo, render them plain (`<i>Name</i>`) and ask the user only at report time whether to add a URL.
 
 ## Step 2 — Determine date and slug
 

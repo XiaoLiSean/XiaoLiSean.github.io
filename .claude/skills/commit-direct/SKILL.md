@@ -30,7 +30,14 @@ Always end the message with the trailer:
 Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>
 ```
 
-If the message body contains characters PowerShell parses as operators (parens, `&`, `|`, etc.), write the message to `.git/COMMIT_MSG_TMP` with the Write tool and use `git commit -F .git/COMMIT_MSG_TMP` instead of HEREDOC. Then `Remove-Item .git/COMMIT_MSG_TMP -Force` after commit.
+**Default to the file-based message path**, not HEREDOC. PowerShell HEREDOCs (`@'...'@`) parse-fail on parens, angle brackets, ampersands, pipes — and these appear constantly in real commit messages (`(prefers-color-scheme: dark)`, `<date>`, `&lt;`, etc.). Symptom of failure: parser error mid-message, branch ends up pushed without an actual commit. Hit twice this session.
+
+The reliable pattern:
+1. Use the Write tool to create `.git/COMMIT_MSG_TMP` containing the full commit message (title + body + trailer).
+2. `git commit -F .git/COMMIT_MSG_TMP`
+3. `Remove-Item .git/COMMIT_MSG_TMP -Force`
+
+Only fall back to `-m "..."` when the message is a single short shell-safe line.
 
 ## Step 3 — Stage explicitly
 
@@ -38,13 +45,21 @@ Stage files by name (or directory), NEVER `git add -A` or `git add .`. From the 
 
 ## Step 4 — Commit
 
-Use a HEREDOC (`@'...'@`) for the commit message in PowerShell, OR `git commit -F .git/COMMIT_MSG_TMP` if the message has shell-troublesome characters.
+Use the file-based path from Step 2 (`git commit -F .git/COMMIT_MSG_TMP`).
 
-## Step 5 — Push to master
+## Step 5 — Verify the commit captured what you intended
 
-Run `git push origin master`. Tell the user clearly: "**This triggers the GH Actions deploy job. Live site updates in 1–2 minutes.**"
+Always run `git status --short` AFTER the commit succeeds. Working tree should be clean (no `M` / `?? ` lines for files you meant to include). If anything you intended to commit is still showing, you missed staging it — `git add` and recommit BEFORE pushing.
 
-## Step 6 — Report
+This catches a real recurring bug: twice this session, a related file was edited but never staged, and we declared "done" only to discover the change wasn't deployed (`_dark-theme.scss` `.logo-plate` rule, the original about.md edits). The 5-second post-commit check eliminates this class of error.
+
+## Step 6 — Push to master
+
+Run `git push origin master`. **Don't pipe through `2>&1`** — PowerShell 5.1 wraps git's stderr in error records, sets `$?` to false even when git exit code is 0, and breaks `if ($?) { ... }` chains. Just let git write to stderr directly.
+
+Tell the user clearly: "**This triggers the GH Actions deploy job. Live site updates in 1–2 minutes.**"
+
+## Step 7 — Report
 
 Print:
 - The commit SHA + title

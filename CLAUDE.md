@@ -3,17 +3,20 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 Additional topic-scoped rules live in `.claude/rules/`:
-- `workflow.md` — push direct to master, watch the GH Actions deploy, iterate if it breaks (always loaded).
+- `workflow.md` — push direct to master, watch the GH Actions deploy, iterate if it breaks; PowerShell gotchas (always loaded).
 - `permalinks.md` — `permalink:` fields are immutable; use `redirect_from:` if a URL must change (loaded when editing any collection or page file, or `_config.yml`).
 - `publications.md` — dual-edit rule for `_pages/publications.md`, color palette, author-name wrapping (loaded when editing `_publications/` or the Publications page).
-- `theme.md` — SCSS / layout overhaul guidance, prefer-custom-files, subagent usage (loaded when editing `_sass/`, `_layouts/`, `_includes/`, `assets/`, or `_config.yml`).
+- `theme.md` — SCSS / layout overhaul guidance, single-stylesheet + dark-theme attribute selector, no `:has()` with iframes, no Drive iframes for video grids (loaded when editing `_sass/`, `_layouts/`, `_includes/`, `assets/`, or `_config.yml`).
+- `media.md` — image/video conventions: `images/teaser_images/`, self-hosted MP4s in `images/<paper-slug>/`, `<video>` not Drive `<iframe>` (loaded when editing publication pages, projects.md, or media-related SCSS/CSS).
 
 Project skills in `.claude/skills/`:
-- `/add-publication <paste BibTeX>` — scaffolds a new entry: creates `_publications/YYYY-MM-DD-<slug>.md` and inserts the matching `<li>` block at the top of the right section in `_pages/publications.md`.
+- `/add-publication <paste BibTeX>` — scaffolds a new entry: creates `_publications/YYYY-MM-DD-<slug>.md` and inserts the matching `<li>` block at the top of the right section in `_pages/publications.md`. Cross-checks author count vs arXiv; reuses known coauthor profile URLs already in the repo.
 - `/check-links` — audits every `<img>`, `<video>`, `<a href>`, and markdown link against files in `images/` and `files/`. Reports broken refs and orphan files. Run after any rename / move / delete of assets.
 - `/check-permalinks` — audits the current permalink set against HEAD and against the inventory in `.claude/rules/permalinks.md`. Flags any URL that has been removed, changed, or added. Run before pushing structural changes.
+- `/check-dead-files` — audits the repo for files no longer referenced by any markdown/HTML/SCSS/JS/YAML. Tiered output (truly unreferenced / sample content / false positives); never auto-deletes.
 - `/scholar-update` — syncs `_publications/` and `_pages/publications.md` against your OpenAlex record (looked up by ORCID from `_config.yml`). Detects new papers, title changes, venue transitions (preprint → conference → journal), DOI additions, coauthor changes. Prints a structured diff; applies only the items you approve. Uses OpenAlex (free, JSON, no key) instead of Google Scholar (no API, blocks scraping).
-- `/commit-direct [msg]` — commits and pushes straight to master. The GH Actions workflow builds + deploys; if build fails, the previous deploy stays live. Use for any change.
+- `/self-host-drive-video [paper-slug]` — replaces Drive `/preview` iframes on a project page with self-hosted MP4 `<video>` tags (the user drops the files in `images/<slug>/`). Eliminates Drive's non-deterministic player chrome.
+- `/commit-direct [msg]` — commits and pushes straight to master. The GH Actions workflow builds + deploys; if build fails, the previous deploy stays live. Defaults to `git commit -F .git/COMMIT_MSG_TMP` (PowerShell HEREDOCs choke on parens / angle brackets). Verifies post-commit `git status` is clean before pushing.
 
 ## What this repo is
 
@@ -56,3 +59,15 @@ Contains Jupyter notebooks and `.py` scripts (`publications.py`, `talks.py`, `pu
 ## Theme code
 
 `_layouts/`, `_includes/`, `_sass/`, `assets/` come from the Minimal Mistakes / AcademicPages upstream. See `.claude/rules/theme.md` for the rules that apply when editing them.
+
+### Custom additions added this overhaul
+
+- **Single-stylesheet dark mode.** The site uses ONE compiled `assets/css/main.css`. Dark theme rules live in `_sass/_dark-theme.scss` scoped to `html[data-theme="dark"]` (attribute-selector specificity). The toggle in `_includes/dark-mode-toggle.html` only flips that attribute on `<html>`. Default theme is decided by local sunset/sunrise computed in `_includes/head.html` from the visitor's local time (no geolocation prompt). Don't reintroduce the dual-stylesheet `link.disabled` swap — it's fragile and we already abandoned it twice.
+- **Custom SCSS partials** (in `_sass/`, imported from `assets/css/main.scss`): `_dark-theme.scss` (dark mode overrides), `_publication-card.scss` (publications page card layout), `_project-gallery.scss` (projects page grid + modal).
+- **`.logo-plate` class**: any school/company logo (sjtu, uofm, tri) wrapped in `<div class="logo-plate">` gets a white plate (invisible on white page) in light mode, light gray plate (visible) in dark mode. Use the same pattern for any future logos.
+
+### Custom directories added this overhaul
+
+- **`images/teaser_images/`** — small per-paper teaser images for the publications page card layout. Naming: lowercase venue acronym + year (e.g. `cdc_2025.gif`, `tcst_2026.jpg`, `iv_2025.png`).
+- **`images/<paper-slug>/`** — self-hosted MP4 videos used in per-paper project pages, replacing Drive iframes. Examples: `images/tac2025/`, `images/l4dc2024/`, `images/tcst2024/`.
+- **`.github/workflows/jekyll.yml`** — GH Actions builds + deploys to Pages. Pages source must be set to "GitHub Actions" in repo settings (one-time UI step).
