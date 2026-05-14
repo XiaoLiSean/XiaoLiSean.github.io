@@ -144,6 +144,13 @@ html[data-theme="dark"] {
     color: #ff5c5c !important;
   }
 
+  /* Logo plates on the about page (sjtu, uofm, tri). Inline white background
+     blends into the white page in light mode (invisible). In dark mode, use
+     a light-gray plate so the logo reads clearly against the dark page. */
+  .logo-plate {
+    background-color: #e0e0e0 !important;
+  }
+
   /* Social icons in the author sidebar — Minimal Mistakes hardcodes some icon
      colors (.fa = #000 for the bare location icon, .fa-github = #171516, and
      similar brand overrides) which read as black/near-black on the dark page.
