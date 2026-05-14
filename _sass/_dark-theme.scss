@@ -136,6 +136,14 @@ html[data-theme="dark"] {
     border-color: $dark-border;
   }
 
+  /* The honor-annotation color (#750000 — used inline on entries like the
+     L4DC oral-presentation tag) is too dark to read on the dark background.
+     Brighten it. !important needed to defeat the inline style attribute. */
+  [style*="#750000"],
+  [style*="#750000;"] {
+    color: #ff5c5c !important;
+  }
+
   /* Social icons in the author sidebar — Minimal Mistakes hardcodes some icon
      colors (.fa = #000 for the bare location icon, .fa-github = #171516, and
      similar brand overrides) which read as black/near-black on the dark page.
