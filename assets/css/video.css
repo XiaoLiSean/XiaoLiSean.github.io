@@ -28,30 +28,47 @@
     border: none;
 }
 
-/* For the .video-table comparison tables (TAC2025 etc.) — class-based
-   selectors instead of :has() to avoid load-timing races where some cells
-   would be sized correctly and others not on refresh. */
+/* For the .video-table comparison tables (TAC2025 etc.).
+   The CELL itself enforces the 16:9 aspect ratio via a ::before pseudo-element
+   pushing its height to 56.25% of its width. The .video-container and iframe
+   then absolutely-fill the cell. This is timing-deterministic — no dependency
+   on iframe load events or :has() resolution. */
 .video-table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
 }
 
-.video-table td,
-.video-table th {
+.video-table th,
+.video-table td {
     padding: 0;
     text-align: center;
     vertical-align: middle;
     border: none;
 }
 
-/* Each video cell uses the padding-bottom hack to lock the 16:9 ratio
-   regardless of when the iframe finishes loading. */
-.video-table td .video-container {
+/* Each video cell becomes its own positioning context with a 16:9 height. */
+.video-table td {
     position: relative;
+}
+
+/* The ::before pseudo-element is a 0-height block whose padding-top is 56.25%
+   of the cell's width. That pushes the cell to be 16:9. */
+.video-table td::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+}
+
+/* The .video-container fills the cell completely, ignoring its own
+   padding-bottom hack (which would conflict). */
+.video-table td .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
+    height: 100%;
+    padding-bottom: 0;
     margin: 0;
     overflow: hidden;
 }
