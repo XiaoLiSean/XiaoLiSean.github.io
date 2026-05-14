@@ -27,7 +27,9 @@ I'm a Ph.D. student affiliated with the Aerospace Department, at the University 
 
 <h1 id="work-experience" style="margin-top:2.5em;">Work Experience</h1>
 <div style="display:flex; align-items:center; gap:1em; margin:0.5em 0;">
-  <img src="/images/tri.png" alt="Toyota Research Institute" style="width:auto; height:100px; object-fit:contain; flex-shrink:0;">
+  <div style="background:#f5f5f5; border-radius:12px; padding:0.5em; flex-shrink:0;">
+    <img src="/images/tri.png" alt="Toyota Research Institute" style="width:auto; height:100px; object-fit:contain; display:block;">
+  </div>
   <div>
     <b>Toyota Research Institute</b>, <a href="https://www.tri.global/our-work/human-interactive-driving" target="_blank">HID Division</a><br/>
     Research Intern, May 2025 &ndash; Aug 2025, Cambridge<br/>
