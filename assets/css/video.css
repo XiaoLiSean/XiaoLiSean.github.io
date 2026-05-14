@@ -30,15 +30,34 @@
 
 /* When .video-container sits inside a table cell (e.g. the comparison tables
    on the TAC2025 / CDC2025 project pages), make the cell layout predictable:
-   uniform column widths via table-layout:fixed and centered cell contents. */
+   uniform column widths via table-layout:fixed, and force each cell to be a
+   fixed 16:9 aspect ratio with the video filling it edge-to-edge. */
 table:has(.video-container) {
     table-layout: fixed;
     width: 100%;
 }
 
-table th:has(.video-container),
 table td:has(.video-container) {
-    text-align: center;
+    padding: 0.25em;
     vertical-align: middle;
-    padding: 0.5em;
+}
+
+/* Video cells use aspect-ratio directly. The .video-container fills the cell
+   and the iframe fills the container — no padding-bottom hack needed here
+   because the cell itself enforces the aspect. */
+table td .video-container {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    padding-bottom: 0;
+    margin: 0;
+    position: relative;
+}
+
+table td .video-container iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
