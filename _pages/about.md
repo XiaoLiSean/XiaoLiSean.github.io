@@ -13,13 +13,13 @@ I'm a Ph.D. student affiliated with the Aerospace Department, at the University 
 
 <h1 id="education" style="margin-top:2.5em;">Education</h1>
 <div style="display:flex; align-items:center; gap:1em; margin:0.5em 0;">
-  <div class="logo-plate" style="background:#ffffff; border-radius:8px; padding:4px; flex-shrink:0;">
+  <div class="logo-plate" style="background:#ffffff; border-radius:8px; padding:2px; flex-shrink:0;">
     <img src="/images/sjtu.png" alt="Shanghai Jiao Tong University" style="width:60px; height:60px; object-fit:contain; display:block;">
   </div>
   <div>B.S. in Mechanical Engineering, Shanghai Jiao Tong University, 2019</div>
 </div>
 <div style="display:flex; align-items:center; gap:1em; margin:0.5em 0;">
-  <div class="logo-plate" style="background:#ffffff; border-radius:8px; padding:4px; flex-shrink:0;">
+  <div class="logo-plate" style="background:#ffffff; border-radius:8px; padding:2px; flex-shrink:0;">
     <img src="/images/UofM.png" alt="University of Michigan" style="width:60px; height:60px; object-fit:contain; display:block;">
   </div>
   <div>M.S. in Mechanical Engineering, University of Michigan - Ann Arbor, 2021</div>
@@ -31,7 +31,7 @@ I'm a Ph.D. student affiliated with the Aerospace Department, at the University 
 
 <h1 id="work-experience" style="margin-top:2.5em;">Work Experience</h1>
 <div style="display:flex; align-items:center; gap:1em; margin:0.5em 0;">
-  <div class="logo-plate" style="background:#ffffff; border-radius:8px; padding:4px; flex-shrink:0;">
+  <div class="logo-plate" style="background:#ffffff; border-radius:8px; padding:2px; flex-shrink:0;">
     <img src="/images/tri.png" alt="Toyota Research Institute" style="width:auto; height:100px; object-fit:contain; display:block;">
   </div>
   <div>
