@@ -28,31 +28,26 @@
     border: none;
 }
 
-/* When .video-container sits inside a table cell (e.g. the comparison tables
-   on the TAC2025 / CDC2025 project pages), force a predictable layout:
-   fixed equal columns and each cell hugged tightly around its 16:9 video.
-
-   The padding-bottom hack is used (instead of aspect-ratio) because some
-   browsers don't honor aspect-ratio on elements whose parent's height is
-   driven by table layout, which was causing the iframe to extend past the
-   container and get clipped by overflow:hidden. */
-table:has(.video-container) {
+/* For the .video-table comparison tables (TAC2025 etc.) — class-based
+   selectors instead of :has() to avoid load-timing races where some cells
+   would be sized correctly and others not on refresh. */
+.video-table {
     table-layout: fixed;
     width: 100%;
+    border-collapse: collapse;
 }
 
-/* Zero out the global td padding (inherited from _tables.scss = 0.5em) so
-   the cell's content box matches the .video-container exactly with no slack. */
-table td:has(.video-container) {
+.video-table td,
+.video-table th {
     padding: 0;
     text-align: center;
     vertical-align: middle;
     border: none;
 }
 
-/* The padding-bottom hack reasserted explicitly in case earlier rules were
-   overridden. height:0 + padding-bottom:56.25% gives a 16:9 box at any width. */
-table td .video-container {
+/* Each video cell uses the padding-bottom hack to lock the 16:9 ratio
+   regardless of when the iframe finishes loading. */
+.video-table td .video-container {
     position: relative;
     width: 100%;
     height: 0;
@@ -61,7 +56,7 @@ table td .video-container {
     overflow: hidden;
 }
 
-table td .video-container iframe {
+.video-table td .video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
