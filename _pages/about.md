@@ -26,18 +26,18 @@ I'm a Machine Learning Engineer on the Planner team at [Waymo](https://waymo.com
 </div>
 
 <h1 id="news" style="margin-top:2.5em;">News</h1>
-* **[2026.08]** Started a new position as a Machine Learning Engineer on the Planner team at [Waymo](https://waymo.com/)!
+* **[2026.07]** Started a new position as a Machine Learning Engineer on the Planner team at [Waymo](https://waymo.com/)!
 * **[2026.05]** Successfully defended my PhD thesis, *"Safe and Uncertainty-Aware Decision-Making for Autonomous Vehicles"*!
 * **[2025.09]** Awarded the [Rackham Predoctoral Fellowship](https://aero.engin.umich.edu/2026/04/16/students-recognized-with-rackham-pre-doctoral-fellowship/).
 
 <h1 id="work-experience" style="margin-top:2.5em;">Work Experience</h1>
 <div style="display:flex; align-items:center; gap:1em; margin:0.5em 0;">
   <div class="logo-plate" style="background:#ffffff; border-radius:8px; padding:2px; flex-shrink:0;">
-    <img src="/images/waymo.png" alt="Waymo" style="width:80px; height:80px; object-fit:contain; display:block;">
+    <img src="/images/waymo.png" alt="Waymo" style="width:auto; height:100px; object-fit:contain; display:block;">
   </div>
   <div>
     <b>Waymo</b>, Planner Team<br/>
-    Machine Learning Engineer, Aug 2026 &ndash; Present, Mountain View
+    Machine Learning Engineer, Jul 2026 &ndash; Present, Mountain View
   </div>
 </div>
 <div style="display:flex; align-items:center; gap:1em; margin:0.5em 0;">
