@@ -33,7 +33,7 @@ I'm a Machine Learning Engineer on the Planner team at [Waymo](https://waymo.com
 <h1 id="work-experience" style="margin-top:2.5em;">Work Experience</h1>
 <div style="display:flex; align-items:center; gap:1em; margin:0.5em 0;">
   <div class="logo-plate" style="background:#ffffff; border-radius:8px; padding:2px; flex-shrink:0;">
-    <img src="/images/waymo.png" alt="Waymo" style="width:auto; height:100px; object-fit:contain; display:block;">
+    <img src="/images/waymo.png" alt="Waymo" style="width:60px; height:60px; object-fit:contain; display:block;">
   </div>
   <div>
     <b>Waymo</b>, Planner Team<br/>
@@ -42,7 +42,7 @@ I'm a Machine Learning Engineer on the Planner team at [Waymo](https://waymo.com
 </div>
 <div style="display:flex; align-items:center; gap:1em; margin:0.5em 0;">
   <div class="logo-plate" style="background:#ffffff; border-radius:8px; padding:2px; flex-shrink:0;">
-    <img src="/images/tri.png" alt="Toyota Research Institute" style="width:auto; height:100px; object-fit:contain; display:block;">
+    <img src="/images/tri.png" alt="Toyota Research Institute" style="width:60px; height:60px; object-fit:contain; display:block;">
   </div>
   <div>
     <b>Toyota Research Institute</b>, <a href="https://www.tri.global/our-work/human-interactive-driving" target="_blank">HID Division</a><br/>
